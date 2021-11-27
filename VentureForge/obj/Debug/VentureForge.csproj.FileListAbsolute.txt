@@ -20,8 +20,6 @@ C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Modules.g.cs
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\FindModules.g.cs
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Modules.baml
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\FindModules.baml
-C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Page1.g.cs
-C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Page1.baml
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.exe.config
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.exe
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.pdb
@@ -54,3 +52,13 @@ C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Examine
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.baml
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.baml
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.baml
