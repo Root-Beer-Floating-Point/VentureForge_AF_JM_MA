@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+// comment to change stuff, test branch
 namespace VentureForge
 {
     /// <summary>
@@ -23,6 +23,34 @@ namespace VentureForge
         public MainWindow()
         {
             InitializeComponent();
+
         }
+
+        private void CreateModule_Click(object sender, RoutedEventArgs e)
+        {
+
+            new CreateModule().Show();
+           
+            
+        }
+
+
+        private void FindModules_Click(object sender, RoutedEventArgs e)
+        {
+            new FindModules().Show();
+        }
+
+        private void Modules_Click(Object sender, RoutedEventArgs e)
+        {
+            new Modules().Show();
+        }
+
+        private void Login_Click(Object sender, RoutedEventArgs e)
+        {
+            // new Login().Show;
+            // we aren't doing anything with this one yet
+        }
+       
+
     }
 }
