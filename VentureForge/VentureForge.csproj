@@ -55,6 +55,42 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CreateModule.cs">
+      <DependentUpon>CreateModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CreateSheets.xaml.cs">
+      <DependentUpon>CreateSheets.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineExistingAssests.xaml.cs">
+      <DependentUpon>ExamineExistingAssests.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineExistingSheets.xaml.cs">
+      <DependentUpon>ExamineExistingSheets.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules.xaml.cs">
+      <DependentUpon>Modules.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FindModules.xaml.cs">
+      <DependentUpon>FindModules.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UploadAssests.xaml.cs">
+      <DependentUpon>UploadAssests.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UploadeModule.xaml.cs">
+      <DependentUpon>UploadeModule.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CreateSheets.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExamineExistingAssests.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExamineExistingSheets.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +103,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="CreateModule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FindModules.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UploadAssests.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UploadeModule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
