@@ -23,5 +23,35 @@ namespace VentureForge
         {
             InitializeComponent();
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            new MainWindow().Show();
+            Close();
+        }
+
+        private void SginIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AddContainer_Click(object sender, RoutedEventArgs e)// allows txt, containers, and data boxes within
+        {
+
+        }
+
+        private void CreatorName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

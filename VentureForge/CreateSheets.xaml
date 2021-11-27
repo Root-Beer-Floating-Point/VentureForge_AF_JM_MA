@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="CreateSheets" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" Click="Home_Click"/>
+        <Button Content="Sgin in" HorizontalAlignment="Left" Margin="717,0,0,0" VerticalAlignment="Top" Click="SginIn_Click"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="757,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.57,-0.305" Click="Login_Click"/>
+        <Label Content="Add a name for your sheet creator:" HorizontalAlignment="Left" Margin="80,45,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="279,49,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200" TextChanged="CreatorName_TextChanged"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="46,0,0,0" VerticalAlignment="Top" Click="Save_Click"/>
+        <Border BorderBrush="Black" BorderThickness="2" Margin="10,80,10,10">
+
+        </Border>
+        <Label Content="Add a container to start!" HorizontalAlignment="Left" Margin="80,95,0,0" VerticalAlignment="Top"/>
+        <Button Content="Add Container Box" HorizontalAlignment="Left" Margin="80,135,0,0" VerticalAlignment="Top" Click="AddContainer_Click"/>
+
     </Grid>
 </Window>
