@@ -30,7 +30,7 @@ namespace VentureForge
         {
 
             new CreateModule().Show();
-           
+           Close();
             
         }
 
@@ -38,11 +38,13 @@ namespace VentureForge
         private void FindModules_Click(object sender, RoutedEventArgs e)
         {
             new FindModules().Show();
+            Close();
         }
 
         private void Modules_Click(Object sender, RoutedEventArgs e)
         {
             new Modules().Show();
+            Close();
         }
 
         private void Login_Click(Object sender, RoutedEventArgs e)
