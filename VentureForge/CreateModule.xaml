@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="CreateModule" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Upload Assets" HorizontalAlignment="Left" Margin="95,71,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.512,0.578" Click="UploadAssests_Click"/>
+        <Button Content="Examine Existing Assets" HorizontalAlignment="Left" Margin="179,71,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.233,-3.675" Click="ExamineAssets_Click"/>
+        <Button Content="Create Sheets" HorizontalAlignment="Left" Margin="312,71,0,0" VerticalAlignment="Top" Click="CreateSheets_Click"/>
+        <Button Content="Examine Existing Sheets" HorizontalAlignment="Left" Margin="393,71,0,0" VerticalAlignment="Top" Width="133" Click="ExamineSheets_Click"/>
+        <Button Content="Uploade Module" HorizontalAlignment="Left" Margin="531,71,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.541,-1.472" Click="UploadModule_Click"/>
+        <Button Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" Click="Home_Click"/>
+        <Button Content="Sgin in" HorizontalAlignment="Left" Margin="717,0,0,0" VerticalAlignment="Top" Click="SginIn_Click"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="757,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.57,-0.305" Click="Login_Click"/>
+
     </Grid>
 </Window>

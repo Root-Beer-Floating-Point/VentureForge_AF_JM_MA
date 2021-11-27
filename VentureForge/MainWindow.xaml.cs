@@ -50,7 +50,10 @@ namespace VentureForge
             // new Login().Show;
             // we aren't doing anything with this one yet
         }
-       
 
+        private void SginIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
