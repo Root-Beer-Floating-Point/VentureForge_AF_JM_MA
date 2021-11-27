@@ -23,5 +23,20 @@ namespace VentureForge
         {
             InitializeComponent();
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SignIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

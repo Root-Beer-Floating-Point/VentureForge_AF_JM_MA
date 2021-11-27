@@ -26,31 +26,37 @@ namespace VentureForge
         private void UploadAssests_Click(object sender, RoutedEventArgs e)
         {
             new UploadAssests().Show();
+            Close();
         }
 
         private void ExamineAssets_Click(object sender, RoutedEventArgs e)
         {
             new ExamineExistingAssests().Show();
+            Close();
         }
 
         private void CreateSheets_Click(object sender, RoutedEventArgs e)
         {
             new CreateSheets().Show();
+            Close();
         }
 
         private void ExamineSheets_Click(object sender, RoutedEventArgs e)
         {
             new ExamineExistingSheets().Show();
+            Close();
         }
 
         private void UploadModule_Click(object sender, RoutedEventArgs e)
         {
             new UploadeModule().Show();
+            Close();
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
         {
             new MainWindow().Show();
+            Close();
         }
 
         private void SginIn_Click(object sender, RoutedEventArgs e)
