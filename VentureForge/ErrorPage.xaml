@@ -11,12 +11,12 @@
     mc:Ignorable="d">
     <Grid>
         <Image
-            Width="100"
+            Width="126"
             Height="100"
             Margin="0,80,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            Source="/ab0b0b4426910a257d9c6f11418db03eb385b5a62b5044b7eebf8f94d6c84f9a.gif" />
+            Source="/download.png" />
         <Label
             Width="144"
             Margin="0,185,0,134"
@@ -33,6 +33,13 @@
             FontFamily="Sitka Text"
             Text="Feature is not added. This is still in beta"
             TextWrapping="Wrap" />
+        <Button
+            x:Name="Home"
+            Margin="10,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Home_Click"
+            Content="Home" />
 
     </Grid>
 </Window>
