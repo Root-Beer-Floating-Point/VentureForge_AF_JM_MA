@@ -86,3 +86,5 @@ C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.csproj.Ge
 C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.csproj.CoreCompileInputs.cache
 C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.exe
 C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.pdb
+C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ErrorPage.g.cs
+C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ErrorPage.baml

@@ -1,0 +1,38 @@
+﻿<Window
+    x:Class="VentureForge.ErrorPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:VentureForge"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ErrorPage"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <Image
+            Width="100"
+            Height="100"
+            Margin="0,80,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Source="/ab0b0b4426910a257d9c6f11418db03eb385b5a62b5044b7eebf8f94d6c84f9a.gif" />
+        <Label
+            Width="144"
+            Margin="0,185,0,134"
+            HorizontalAlignment="Center"
+            Background="#00000000"
+            Content="ERROR"
+            FontSize="36"
+            FontStyle="Normal"
+            FontWeight="Normal" />
+        <TextBlock
+            Margin="0,331,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            FontFamily="Sitka Text"
+            Text="Feature is not added. This is still in beta"
+            TextWrapping="Wrap" />
+
+    </Grid>
+</Window>
