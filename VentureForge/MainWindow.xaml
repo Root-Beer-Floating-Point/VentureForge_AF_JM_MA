@@ -11,7 +11,7 @@
         <Button Content="Find Existing Modules" HorizontalAlignment="Left" Margin="477,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.114,-0.51" Click="FindModules_Click"/>
         <Button Content="Saved and Created Modules" HorizontalAlignment="Left" Margin="114,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.114,-0.51" Click="Modules_Click"/>
         <Button Content="Login" HorizontalAlignment="Left" Margin="744,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.114,-0.51" Click="Login_Click"/>
-        <Button Content="Sgin in" HorizontalAlignment="Left" Margin="699,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.331,-0.006" Click="SginIn_Click"/>
+        <Button Content="Sign in" HorizontalAlignment="Left" Margin="699,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.331,-0.006" Click="SignIn_Click"/>
     </Grid>
 
 </Window>

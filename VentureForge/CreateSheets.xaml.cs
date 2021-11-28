@@ -42,7 +42,8 @@ namespace VentureForge
     public partial class CreateSheets : Window
     {
         public Module mod;
-        public Sheet creator;
+        public Sheet creator = new Sheet();
+        public String nameString = "";
         public CreateSheets(Module mod)
         {
             InitializeComponent();
@@ -71,12 +72,13 @@ namespace VentureForge
 
         private void CreatorName_TextChanged(object sender, TextChangedEventArgs e)
         {
-            //creator.name = CreatorName.Text;
+            nameString = CreatorName.Text;
             
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
+            creator.name = nameString;
             mod.AddSheet(creator.name, creator);
         }
     }
