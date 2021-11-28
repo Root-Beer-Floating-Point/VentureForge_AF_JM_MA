@@ -48,5 +48,20 @@ namespace VentureForge
             new ErrorPage().Show();
             Close();
         }
+
+        private void RulesDocument_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void WeaponList_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void PreMadeCharacters_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
