@@ -24,6 +24,7 @@ namespace VentureForge
 
         public String name = "";
         public Dictionary<String, Sheet> SheetList = new Dictionary<string, Sheet>();
+        int count = 0;
 
         public Module()
         {
@@ -37,7 +38,9 @@ namespace VentureForge
 
         public void AddSheet(String sheetName, Sheet sheet)
         {
-            SheetList[sheetName] = sheet;
+            if (count == 0) { SheetList.Add(sheetName, sheet); }
+            else { SheetList.Remove(sheetName); SheetList.Add(sheetName, sheet); }
+            count++;
         }
 
     }// end class Module
@@ -45,7 +48,7 @@ namespace VentureForge
     public partial class CreateModule : Window
     {
 
-        Module mod = new Module();
+        public Module mod = new Module();
         public bool named = false;
         public CreateModule()
         {

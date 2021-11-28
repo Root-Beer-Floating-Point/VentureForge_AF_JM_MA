@@ -53,7 +53,7 @@ namespace VentureForge
             // we aren't doing anything with this one yet
         }
 
-        private void SginIn_Click(object sender, RoutedEventArgs e)
+        private void SignIn_Click(object sender, RoutedEventArgs e)
         {
 
         }
