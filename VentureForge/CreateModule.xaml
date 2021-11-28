@@ -13,8 +13,10 @@
         <Button Content="Examine Existing Sheets" HorizontalAlignment="Left" Margin="393,71,0,0" VerticalAlignment="Top" Width="133" Click="ExamineSheets_Click"/>
         <Button Content="Uploade Module" HorizontalAlignment="Left" Margin="531,71,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.541,-1.472" Click="UploadModule_Click"/>
         <Button Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0" Click="Home_Click"/>
-        <Button Content="Sgin in" HorizontalAlignment="Left" Margin="717,0,0,0" VerticalAlignment="Top" Click="SginIn_Click"/>
+        <Button Content="Sign in" HorizontalAlignment="Left" Margin="717,0,0,0" VerticalAlignment="Top" Click="SginIn_Click"/>
         <Button Content="Login" HorizontalAlignment="Left" Margin="757,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.57,-0.305" Click="Login_Click"/>
+        <Label Content="Name your module: " HorizontalAlignment="Left" Margin="95,45,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="nameBox"  HorizontalAlignment="Left" Margin="213,49,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="ModName_TextChanged"/>
 
     </Grid>
 </Window>
