@@ -26,14 +26,14 @@
             Content="Sign in" />
         <Button
             x:Name="HomePage"
-            Margin="10,10,0,0"
+            Margin="10,65,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Click="HomePage_Click"
             Content="Home" />
         <Button
             x:Name="PreviousPage"
-            Margin="55,10,0,0"
+            Margin="51,65,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Click="PreviousPage_Click"

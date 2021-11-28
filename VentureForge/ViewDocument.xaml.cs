@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using Microsoft.Win32;
+using System.IO;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -15,16 +17,16 @@ using System.Windows.Shapes;
 namespace VentureForge
 {
     /// <summary>
-    /// Interaction logic for ExamineExistingAssests.xaml
+    /// Interaction logic for ViewDocument.xaml
     /// </summary>
-    public partial class ExamineExistingAssests : Window
+    public partial class ViewDocument : Window
     {
-        public ExamineExistingAssests()
+        public ViewDocument()
         {
             InitializeComponent();
         }
 
-        private void Home_Click(object sender, RoutedEventArgs e)
+        private void HomePage_Click(object sender, RoutedEventArgs e)
         {
             new MainWindow().Show();
             Close();
@@ -32,37 +34,29 @@ namespace VentureForge
 
         private void PreviousPage_Click(object sender, RoutedEventArgs e)
         {
-            new CreateModule().Show();
+            new ExamineExistingAssests().Show();
             Close();
         }
 
-        private void SignIn_Click(object sender, RoutedEventArgs e)
-        {
-            new ErrorPage().Show();
-            Close();
-
-        }
-
-        private void Login_Click(object sender, RoutedEventArgs e)
+        private void LoginPage_Click(object sender, RoutedEventArgs e)
         {
             new ErrorPage().Show();
             Close();
         }
 
-        private void RulesDocument_Click(object sender, RoutedEventArgs e)
+        private void SignInPage_Click(object sender, RoutedEventArgs e)
         {
-            new ViewDocument().Show();
+            new ErrorPage().Show();
             Close();
         }
 
-        private void WeaponList_Click(object sender, RoutedEventArgs e)
+        private void OpenFile_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void PreMadeCharacters_Click(object sender, RoutedEventArgs e)
-        {
-
+           OpenFileDialog openFileDialog = new OpenFileDialog(); 
+            if (openFileDialog.ShowDialog() == true){
+                
+                myTextBox.Text = File.ReadAllText(openFileDialog.FileName);
+            }
         }
     }
 }

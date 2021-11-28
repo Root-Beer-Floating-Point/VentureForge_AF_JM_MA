@@ -82,6 +82,9 @@
     <Compile Include="UploadeModule.xaml.cs">
       <DependentUpon>UploadeModule.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewDocument.xaml.cs">
+      <DependentUpon>ViewDocument.xaml</DependentUpon>
+    </Compile>
     <Page Include="CreateSheets.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -127,6 +130,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UploadeModule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewDocument.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
