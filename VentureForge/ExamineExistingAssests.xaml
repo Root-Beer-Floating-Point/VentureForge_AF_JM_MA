@@ -9,5 +9,61 @@
     Width="800"
     Height="450"
     mc:Ignorable="d">
-    <Grid />
+    <Grid>
+        <Button
+            x:Name="SignIn"
+            Margin="705,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="SignIn_Click"
+            Content="Sign in" />
+        <Button
+            x:Name="Login"
+            Margin="750,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Login_Click"
+            Content="Login" />
+        <Button
+            x:Name="Home"
+            Margin="10,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Home_Click"
+            Content="Home" />
+        <Button
+            x:Name="RulesDocument"
+            Width="210"
+            Height="40"
+            Margin="309,89,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="RulesDocument_Click"
+            Content="Rules" />
+        <Button
+            x:Name="PreMadeCharacters"
+            Width="210"
+            Height="50"
+            Margin="309,206,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="PreMadeCharacters_Click"
+            Content="Characters" />
+        <Button
+            x:Name="WeaponList"
+            Width="210"
+            Height="45"
+            Margin="309,147,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="WeaponList_Click"
+            Content="Weapons" />
+        <Button
+            x:Name="PreviousPage"
+            Margin="68,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="PreviousPage_Click"
+            Content="previous" />
+    </Grid>
 </Window>

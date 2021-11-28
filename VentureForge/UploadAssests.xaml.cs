@@ -71,5 +71,11 @@ namespace VentureForge
             new ErrorPage().Show();
             Close();
         }
+
+        private void PreviousPage_Click(object sender, RoutedEventArgs e)
+        {
+            new CreateModule().Show();
+            Close();
+        }
     }
 }

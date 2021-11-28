@@ -54,6 +54,13 @@
             VerticalAlignment="Top"
             Text=""
             TextWrapping="Wrap" />
+        <Button
+            x:Name="PreviousPage"
+            Margin="67,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="PreviousPage_Click"
+            Content="Previous" />
 
     </Grid>
 </Window>
