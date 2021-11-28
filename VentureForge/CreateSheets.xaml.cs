@@ -17,11 +17,36 @@ namespace VentureForge
     /// <summary>
     /// Interaction logic for CreateSheets.xaml
     /// </summary>
+    /// 
+    
+    public class Sheet
+    {
+
+        public String name = "";
+
+
+        public Sheet()
+        {
+
+        }// empty arg constructor
+
+        public Sheet(String n)
+        {
+            this.name = n;
+        }
+
+
+    }
+
+
     public partial class CreateSheets : Window
     {
-        public CreateSheets()
+        public Module mod;
+        public Sheet creator;
+        public CreateSheets(Module mod)
         {
             InitializeComponent();
+            this.mod = mod;
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
@@ -46,12 +71,13 @@ namespace VentureForge
 
         private void CreatorName_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            //creator.name = CreatorName.Text;
+            
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-
+            mod.AddSheet(creator.name, creator);
         }
     }
 }
