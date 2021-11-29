@@ -1,0 +1,102 @@
+﻿<Window
+    x:Class="VentureForge.UploadModule"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:VentureForge"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="UploadModule"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <TextBox
+            Width="120"
+            Height="16"
+            Margin="335,121,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+        <TextBlock
+            Margin="294,121,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text="Title:"
+            TextWrapping="Wrap" />
+        <TextBlock
+            Margin="262,137,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text="Availibility:"
+            TextWrapping="Wrap" />
+        <TextBox
+            Width="120"
+            Height="16"
+            Margin="335,153,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+        <TextBlock
+            Margin="279,153,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text="Edition:"
+            TextWrapping="Wrap" />
+        <TextBox
+            Width="120"
+            Height="16"
+            Margin="335,169,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+        <TextBlock
+            Margin="280,169,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text="Author:"
+            TextWrapping="Wrap" />
+        <TextBox
+            Width="120"
+            Height="16"
+            Margin="335,185,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            TextWrapping="Wrap" />
+        <TextBlock
+            Margin="256,185,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text="Description:"
+            TextWrapping="Wrap" />
+        <ComboBox
+            Width="120"
+            Height="17"
+            Margin="335,137,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        <Button
+            Width="75"
+            Margin="31,40,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Home_Click"
+            Content="Home" />
+        <Button
+            Width="75"
+            Margin="688,40,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Back_Click"
+            Content="Back"
+            RenderTransformOrigin="0.553,-0.896" />
+        <Button
+            Width="75"
+            Margin="688,324,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Save_Click"
+            Content="Save"
+            RenderTransformOrigin="0.553,-0.896" />
+
+    </Grid>
+</Window>
