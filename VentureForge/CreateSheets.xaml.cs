@@ -19,24 +19,7 @@ namespace VentureForge
     /// </summary>
     /// 
     
-    public class Sheet
-    {
-
-        public String name = "";
-
-
-        public Sheet()
-        {
-
-        }// empty arg constructor
-
-        public Sheet(String n)
-        {
-            this.name = n;
-        }
-
-
-    }
+    
 
 
     public partial class CreateSheets : Window
