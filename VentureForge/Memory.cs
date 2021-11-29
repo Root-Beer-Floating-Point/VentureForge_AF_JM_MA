@@ -9,7 +9,7 @@ namespace VentureForge
     public class Memory
     {
 
-        public Dictionary<string, Module> modList = new Dictionary<string, Module>();
+        internal static Dictionary<string, Module> modList = new Dictionary<string, Module>();
 
         public Memory()
         {

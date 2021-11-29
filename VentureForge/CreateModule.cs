@@ -25,7 +25,7 @@ namespace VentureForge
     {
         
         public Module mod = new Module();
-        public Dictionary<string, Module> masterList = MainWindow._instance.ModuleMasterList;
+        public Dictionary<string, Module> masterList = Memory.modList;
         public String modname = "";
         public bool named = false;
         public int savecount = 0;
@@ -42,6 +42,7 @@ namespace VentureForge
         {
             
             mod = masterList[name];
+            savecount = 1;
 
             String sheets = "- ";
 
