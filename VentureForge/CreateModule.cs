@@ -25,6 +25,7 @@ namespace VentureForge
         public String name = "";
         public Dictionary<String, Sheet> SheetList = new Dictionary<string, Sheet>();
         int count = 0;
+        
 
         public Module()
         {
@@ -47,14 +48,39 @@ namespace VentureForge
 
     public partial class CreateModule : Window
     {
-
+        
         public Module mod = new Module();
+        public Dictionary<string, Module> masterList = MainWindow._instance.ModuleMasterList;
+        public String modname = "";
         public bool named = false;
+        public int savecount = 0;
         public CreateModule()
         {
+            
             InitializeComponent();
             
+            
+            
         }
+
+        public CreateModule(String name)
+        {
+            
+            mod = masterList[name];
+
+            String sheets = "- ";
+
+            foreach(KeyValuePair<string, Sheet> ele1 in mod.SheetList)
+            {
+                sheets = ele1.Key + " - ";
+            }
+
+            
+            InitializeComponent ();
+            ShowName.Text = mod.name;// need to repeat with all data shown
+            CreatedSheets.Text = sheets;
+        }
+
         private void UploadAssests_Click(object sender, RoutedEventArgs e)
         {
             if (named) {
@@ -96,16 +122,18 @@ namespace VentureForge
             if (named)
             {
                 new UploadeModule().Show();
+                
                 Close();
             }
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
         {
-            if (named) {
+            
+                masterList = null;
                 new MainWindow().Show();
                 Close();
-            }
+            
             
         }
 
@@ -120,8 +148,25 @@ namespace VentureForge
 
         private void ModName_TextChanged(object sender, TextChangedEventArgs e)
         {
-            mod.name = nameBox.Text;
+          
+            modname = nameBox.Text;
             named = true;
+            
+        }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+            if (named) 
+            { 
+            
+                ShowName.Text = modname;
+                mod.name = modname;
+                if(savecount == 0) { masterList.Add(mod.name, mod); }
+                else { masterList.Remove(mod.name); masterList.Add(mod.name, mod); }
+                savecount++;
+            
+            }
+            
         }
     }
 }
