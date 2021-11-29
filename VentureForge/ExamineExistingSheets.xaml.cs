@@ -23,5 +23,30 @@ namespace VentureForge
         {
             InitializeComponent();
         }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            //new ErrorPage().Show();
+            //Close();
+        }
+
+        private void SignIn_Click(object sender, RoutedEventArgs e)
+        {
+           // new ErrorPage().Show();
+            //Close();
+        }
+
+        private void HomePage_Click(object sender, RoutedEventArgs e)
+        {
+            new MainWindow().Show();
+            Close();
+        }
+
+        private void PreviousPage_Click(object sender, RoutedEventArgs e)
+        {
+            new CreateModule().Show();
+            Close();
+        }
+
     }
 }

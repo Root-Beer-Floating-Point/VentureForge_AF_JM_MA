@@ -67,13 +67,5 @@ namespace VentureForge
 
     }// end Sheet object
 
-    public class Container
-    {
-
-        public Container()
-        {
-
-        }// end empty argument constructor
-
-    }
+   
 }
