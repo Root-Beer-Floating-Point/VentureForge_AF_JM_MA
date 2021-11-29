@@ -12,7 +12,7 @@ namespace VentureForge
         internal static Dictionary<string, Module> modList = new Dictionary<string, Module>();
         // this is the main memory for the program, allowing for us to keep track
         // of all the modules, which in turn contain all the sheets within
-        public Memory()
+        public Memory()// this is a comment, it changes stuff
         {
 
         }// probably won't need to make a memory object ever, we'll see
