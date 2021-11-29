@@ -48,24 +48,5 @@ namespace VentureForge
 
     }// end class Module
 
-    public class Sheet
-    {
-
-        public String name = "";
-
-
-        public Sheet()
-        {
-
-        }// empty arg constructor
-
-        public Sheet(String n)
-        {
-            this.name = n;
-        }// Sheet constructor, might not be used???
-
-
-    }// end Sheet object
-
    
 }
