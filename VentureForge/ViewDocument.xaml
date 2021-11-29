@@ -1,0 +1,48 @@
+﻿<Window
+    x:Class="VentureForge.ViewDocument"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:VentureForge"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ViewDocument"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <Button
+            x:Name="HomePage"
+            Margin="10,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="HomePage_Click"
+            Content="Home" />
+        <Button
+            x:Name="PreviousPage"
+            Margin="55,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="PreviousPage_Click"
+            Content="Previous" />
+        <Button
+            x:Name="LoginPage"
+            Margin="750,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="LoginPage_Click"
+            Content="Login" />
+
+        <Button
+            x:Name="SignInPage"
+            Margin="705,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="SignInPage_Click"
+            Content="Sign in" />
+        <TextBox
+            Name="myTextBox"
+            Margin="0,67,0,0"
+            Text="Doucments here" />
+
+    </Grid>
+</Window>
