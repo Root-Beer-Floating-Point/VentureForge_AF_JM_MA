@@ -44,11 +44,11 @@ namespace VentureForge
             mod = masterList[name];
             savecount = 1;
 
-            String sheets = "- ";
+            String sheets = " - ";
 
             foreach(KeyValuePair<string, Sheet> ele1 in mod.SheetList)
             {
-                sheets = ele1.Key + " - ";
+                sheets = sheets + ele1.Key + " - ";
             }
 
             
@@ -138,7 +138,8 @@ namespace VentureForge
                 ShowName.Text = modname;
                 mod.name = modname;
                 if(savecount == 0) { masterList.Add(mod.name, mod); }
-                else { masterList.Remove(mod.name); masterList.Add(mod.name, mod); }
+                else { masterList.Remove(mod.name);
+                      masterList.Add(mod.name, mod); }
                 savecount++;
             
             }
