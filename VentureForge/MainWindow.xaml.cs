@@ -30,6 +30,7 @@ namespace VentureForge
         {
             _instance = this;
             InitializeComponent();
+            new ContainerPrompt().Show();
 
         }
 

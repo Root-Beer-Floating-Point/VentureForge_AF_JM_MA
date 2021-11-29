@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Container.cs" />
+    <Compile Include="ContainerPrompt.xaml.cs">
+      <DependentUpon>ContainerPrompt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Memory.cs" />
     <Compile Include="CreateModule.cs">
       <DependentUpon>CreateModule.xaml</DependentUpon>
@@ -74,12 +78,17 @@
     <Compile Include="FindModules.xaml.cs">
       <DependentUpon>FindModules.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Sheet.cs" />
     <Compile Include="UploadAssests.xaml.cs">
       <DependentUpon>UploadAssests.xaml</DependentUpon>
     </Compile>
     <Compile Include="UploadeModule.xaml.cs">
       <DependentUpon>UploadeModule.xaml</DependentUpon>
     </Compile>
+    <Page Include="ContainerPrompt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CreateSheets.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
