@@ -42,6 +42,7 @@ namespace VentureForge
     public partial class CreateSheets : Window
     {
         public Module mod;
+        public Dictionary<string, Module> masterList = MainWindow._instance.ModuleMasterList;
         public Sheet creator = new Sheet();
         public String nameString = "";
         public CreateSheets(Module mod)
@@ -78,8 +79,18 @@ namespace VentureForge
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
+            masterList.Remove(mod.name);
             creator.name = nameString;
             mod.AddSheet(creator.name, creator);
+            masterList.Add(mod.name, mod);
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+           
+            new CreateModule(mod.name).Show();
+            Close();
+
         }
     }
 }

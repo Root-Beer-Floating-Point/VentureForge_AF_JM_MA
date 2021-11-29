@@ -18,13 +18,22 @@ namespace VentureForge
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+   
     public partial class MainWindow : Window
     {
+
+        public Dictionary<string, Module> ModuleMasterList = new Dictionary<string, Module>();
+
+        public static MainWindow _instance;
         public MainWindow()
         {
+            _instance = this;
             InitializeComponent();
 
         }
+
+        
 
         private void CreateModule_Click(object sender, RoutedEventArgs e)
         {
@@ -57,5 +66,6 @@ namespace VentureForge
         {
 
         }
+
     }
 }
