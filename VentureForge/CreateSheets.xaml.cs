@@ -25,7 +25,7 @@ namespace VentureForge
     public partial class CreateSheets : Window
     {
         public Module mod;
-        public Dictionary<string, Module> masterList = MainWindow._instance.ModuleMasterList;
+        public Dictionary<string, Module> masterList = Memory.modList;
         public Sheet creator = new Sheet();
         public String nameString = "";
         public CreateSheets(Module mod)

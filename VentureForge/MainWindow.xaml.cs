@@ -23,7 +23,7 @@ namespace VentureForge
     public partial class MainWindow : Window
     {
 
-        public Dictionary<string, Module> ModuleMasterList = new Dictionary<string, Module>();
+        public Dictionary<string, Module> ModuleMasterList = Memory.modList;
 
         public static MainWindow _instance;
         public MainWindow()
