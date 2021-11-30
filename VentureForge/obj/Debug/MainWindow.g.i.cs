@@ -72,7 +72,7 @@ namespace VentureForge {
             {
             case 1:
             
-            #line 17 "..\..\MainWindow.xaml"
+            #line 32 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.CreateModule_Click);
             
             #line default
@@ -80,7 +80,7 @@ namespace VentureForge {
             return;
             case 2:
             
-            #line 24 "..\..\MainWindow.xaml"
+            #line 43 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.FindModules_Click);
             
             #line default
@@ -88,7 +88,7 @@ namespace VentureForge {
             return;
             case 3:
             
-            #line 31 "..\..\MainWindow.xaml"
+            #line 54 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Modules_Click);
             
             #line default
@@ -96,7 +96,7 @@ namespace VentureForge {
             return;
             case 4:
             
-            #line 38 "..\..\MainWindow.xaml"
+            #line 65 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Login_Click);
             
             #line default
@@ -104,7 +104,7 @@ namespace VentureForge {
             return;
             case 5:
             
-            #line 45 "..\..\MainWindow.xaml"
+            #line 76 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.SignIn_Click);
             
             #line default

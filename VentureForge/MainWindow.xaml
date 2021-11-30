@@ -8,44 +8,78 @@
     Title="MainWindow"
     Width="800"
     Height="450"
+    Background="#04c582"
     mc:Ignorable="d">
-    <Grid>
-        <Button
-            Margin="316,94,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="CreateModule_Click"
-            Content="Create a New Module"
-            RenderTransformOrigin="1.114,-0.51" />
-        <Button
-            Margin="477,94,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="FindModules_Click"
-            Content="Find Existing Modules"
-            RenderTransformOrigin="1.114,-0.51" />
-        <Button
-            Margin="114,94,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Modules_Click"
-            Content="Saved and Created Modules"
-            RenderTransformOrigin="1.114,-0.51" />
-        <Button
-            Margin="744,10,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Login_Click"
-            Content="Login"
-            RenderTransformOrigin="1.114,-0.51" />
-        <Button
-            Margin="699,10,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="SignIn_Click"
-            Content="Sign in"
-            RenderTransformOrigin="-0.331,-0.006" />
 
-    </Grid>
+    <Border
+        Margin="20"
+        Background="#2e3137"
+        CornerRadius="20">
+        <StackPanel>
+            <Label
+                HorizontalAlignment="Center"
+                Content="Venture Forge"
+                FontFamily="Mangabey"
+                FontSize="35"
+                Foreground="White" />
 
+            <Grid>
+                <Button
+                    Margin="47,96,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="CreateModule_Click"
+                    Content="Create a New Module"
+                    FontFamily="Mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="1.114,-0.51" />
+                <Button
+                    Margin="46,151,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="FindModules_Click"
+                    Content="Find Existing Modules"
+                    FontFamily="Mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="1.114,-0.51" />
+                <Button
+                    Margin="47,203,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Modules_Click"
+                    Content="Saved and Created Modules"
+                    FontFamily="Mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="1.114,-0.51" />
+                <Button
+                    Margin="698,5,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Login_Click"
+                    Content="Login"
+                    FontFamily="Mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="1.114,-0.51" />
+                <Button
+                    Margin="614,5,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="SignIn_Click"
+                    Content="Sign in"
+                    FontFamily="Mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="-0.331,-0.006" />
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>
