@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace VentureForge
 {
     /// <summary>
-    /// Interaction logic for UploadeModule.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class UploadeModule : Window
+    public partial class Window1 : Window
     {
-        public UploadeModule()
+        public Window1()
         {
             InitializeComponent();
         }

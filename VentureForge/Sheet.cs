@@ -29,7 +29,7 @@ namespace VentureForge
 
         }
 
-        public Sheet(String n)
+        public Sheet(string n)
         {
             this.name = n;
         }// Sheet constructor, might not be used???

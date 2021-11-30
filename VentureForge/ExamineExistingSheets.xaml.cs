@@ -26,14 +26,14 @@ namespace VentureForge
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-            //new ErrorPage().Show();
-            //Close();
+            new ErrorPage().Show();
+            Close();
         }
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
         {
-           // new ErrorPage().Show();
-            //Close();
+            new ErrorPage().Show();
+            Close();
         }
 
         private void HomePage_Click(object sender, RoutedEventArgs e)
