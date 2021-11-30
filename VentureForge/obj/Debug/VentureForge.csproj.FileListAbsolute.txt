@@ -20,8 +20,6 @@ C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Modules.g.cs
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\FindModules.g.cs
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Modules.baml
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\FindModules.baml
-C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Page1.g.cs
-C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Page1.baml
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.exe.config
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.exe
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.pdb
@@ -54,39 +52,45 @@ C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Examine
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.baml
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.baml
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.baml
-C:\Users\maith\source\repos\master\VentureForge\bin\Debug\VentureForge.exe.config
-C:\Users\maith\source\repos\master\VentureForge\bin\Debug\VentureForge.exe
-C:\Users\maith\source\repos\master\VentureForge\bin\Debug\VentureForge.pdb
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.csproj.AssemblyReference.cache
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.csproj.SuggestedBindingRedirects.cache
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\CreateSheets.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\ExamineExistingAssests.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\ExamineExistingSheets.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\MainWindow.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\CreateModule.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\Modules.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\FindModules.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\UploadAssests.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\UploadeModule.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\App.g.cs
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge_MarkupCompile.cache
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge_MarkupCompile.lref
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\CreateSheets.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\ExamineExistingAssests.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\ExamineExistingSheets.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\MainWindow.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\CreateModule.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\Modules.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\FindModules.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\UploadAssests.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\UploadeModule.baml
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.g.resources
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.Properties.Resources.resources
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.csproj.GenerateResource.cache
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.csproj.CoreCompileInputs.cache
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.exe
-C:\Users\maith\source\repos\master\VentureForge\obj\Debug\VentureForge.pdb
-C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ErrorPage.g.cs
-C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ErrorPage.baml
-C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.g.cs
-C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.csprojAssemblyReference.cache
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\MainWindow.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateModule.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Modules.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\FindModules.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\App.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge_MarkupCompile.cache
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge_MarkupCompile.lref
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.exe
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.pdb
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.exe.config
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.exe
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.pdb
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\MainWindow.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateModule.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Modules.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\FindModules.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.g.resources
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.Properties.Resources.resources
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.csproj.GenerateResource.cache
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ContainerPrompt.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ContainerPrompt.baml

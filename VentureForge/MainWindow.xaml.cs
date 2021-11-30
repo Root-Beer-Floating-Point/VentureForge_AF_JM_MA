@@ -18,20 +18,30 @@ namespace VentureForge
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+   
     public partial class MainWindow : Window
     {
+
+        public Dictionary<string, Module> ModuleMasterList = Memory.modList;
+
+        public static MainWindow _instance;
         public MainWindow()
         {
+            _instance = this;
             InitializeComponent();
+            new ContainerPrompt().Show();
 
         }
+
+        
 
         private void CreateModule_Click(object sender, RoutedEventArgs e)
         {
 
             new CreateModule().Show();
-            Close();
-          
+           Close();
+            
         }
 
 
@@ -51,14 +61,12 @@ namespace VentureForge
         {
             // new Login().Show;
             // we aren't doing anything with this one yet
-            new ErrorPage().Show();
-            Close();
         }
 
-        private void SginIn_Click(object sender, RoutedEventArgs e)
+        private void SignIn_Click(object sender, RoutedEventArgs e)
         {
-            new ErrorPage().Show();
-            Close();
+
         }
+
     }
 }

@@ -23,59 +23,5 @@ namespace VentureForge
         {
             InitializeComponent();
         }
-
-        private void Home_Click(object sender, RoutedEventArgs e)
-        {
-            new MainWindow().Show();
-            Close();
-                
-        }
-
-        /**
-         * Added function to upload a file from user and display the path of the file
-         */
-        private void UploadFile_Click(object sender, RoutedEventArgs e)
-        {
-            Microsoft.Win32.OpenFileDialog openFileDialog = new Microsoft.Win32.OpenFileDialog();
-            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            //if (openFileDialog.ShowDialog() == true) ;
-
-            bool? response = openFileDialog.ShowDialog();
-
-             
-            if(response == true)
-            {
-          
-               // string filePath = openFileDialog.FileName;
-                myTextBox.Text = openFileDialog.FileName;
-                // MessageBox.Show(filePath);
-               
-            }
-            
-
-        }
-
-        private void CreateTable_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void SignIn_Click(object sender, RoutedEventArgs e)
-        {
-            new ErrorPage().Show();
-            Close();
-        }
-
-        private void Login_Click(object sender, RoutedEventArgs e)
-        {
-            new ErrorPage().Show();
-            Close();
-        }
-
-        private void PreviousPage_Click(object sender, RoutedEventArgs e)
-        {
-            new CreateModule().Show();
-            Close();
-        }
     }
 }

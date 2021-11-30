@@ -23,46 +23,5 @@ namespace VentureForge
         {
             InitializeComponent();
         }
-
-        private void Home_Click(object sender, RoutedEventArgs e)
-        {
-            new MainWindow().Show();
-            Close();
-        }
-
-        private void PreviousPage_Click(object sender, RoutedEventArgs e)
-        {
-            new CreateModule().Show();
-            Close();
-        }
-
-        private void SignIn_Click(object sender, RoutedEventArgs e)
-        {
-            new ErrorPage().Show();
-            Close();
-
-        }
-
-        private void Login_Click(object sender, RoutedEventArgs e)
-        {
-            new ErrorPage().Show();
-            Close();
-        }
-
-        private void RulesDocument_Click(object sender, RoutedEventArgs e)
-        {
-            new ViewDocument().Show();
-            Close();
-        }
-
-        private void WeaponList_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void PreMadeCharacters_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

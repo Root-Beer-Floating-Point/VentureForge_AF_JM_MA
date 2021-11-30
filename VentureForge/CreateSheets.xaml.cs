@@ -17,28 +17,64 @@ namespace VentureForge
     /// <summary>
     /// Interaction logic for CreateSheets.xaml
     /// </summary>
+    /// 
+    
+    
+
+
     public partial class CreateSheets : Window
     {
-        public CreateSheets()
+        public Module mod;
+        public Dictionary<string, Module> masterList = Memory.modList;
+        public Sheet creator = new Sheet();
+        public String nameString = "";
+        public CreateSheets(Module mod)
         {
             InitializeComponent();
+            this.mod = mod;
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
         {
-
+            new MainWindow().Show();
+            Close();
         }
 
+        private void SginIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-            new ErrorPage().Show();
-            Close();
+
         }
 
-        private void SignIn_Click(object sender, RoutedEventArgs e)
+        private void AddContainer_Click(object sender, RoutedEventArgs e)// allows txt, containers, and data boxes within
         {
-            new ErrorPage().Show();
+
+        }
+
+        private void CreatorName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            nameString = CreatorName.Text;
+            
+        }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+         
+            creator.name = nameString;
+            
+            mod.AddSheet(creator.name, creator);
+            
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+           
+            new CreateModule(mod.name).Show();
             Close();
+
         }
     }
 }

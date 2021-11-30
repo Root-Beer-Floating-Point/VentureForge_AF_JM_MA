@@ -34,7 +34,7 @@ namespace VentureForge
 
         private void PreviousPage_Click(object sender, RoutedEventArgs e)
         {
-            new ExamineExistingAssests().Show();
+            new ExamineExistingAssets().Show();
             Close();
         }
 
@@ -52,9 +52,10 @@ namespace VentureForge
 
         private void OpenFile_Click(object sender, RoutedEventArgs e)
         {
-           OpenFileDialog openFileDialog = new OpenFileDialog(); 
-            if (openFileDialog.ShowDialog() == true){
-                
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            if (openFileDialog.ShowDialog() == true)
+            {
+
                 myTextBox.Text = File.ReadAllText(openFileDialog.FileName);
             }
         }

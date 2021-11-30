@@ -55,14 +55,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Container.cs" />
+    <Compile Include="ContainerPrompt.xaml.cs">
+      <DependentUpon>ContainerPrompt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Memory.cs" />
     <Compile Include="CreateModule.cs">
       <DependentUpon>CreateModule.xaml</DependentUpon>
     </Compile>
     <Compile Include="CreateSheets.xaml.cs">
       <DependentUpon>CreateSheets.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ErrorPage.xaml.cs">
-      <DependentUpon>ErrorPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExamineExistingAssests.xaml.cs">
       <DependentUpon>ExamineExistingAssests.xaml</DependentUpon>
@@ -76,20 +78,18 @@
     <Compile Include="FindModules.xaml.cs">
       <DependentUpon>FindModules.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Sheet.cs" />
     <Compile Include="UploadAssests.xaml.cs">
       <DependentUpon>UploadAssests.xaml</DependentUpon>
     </Compile>
     <Compile Include="UploadeModule.xaml.cs">
       <DependentUpon>UploadeModule.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewDocument.xaml.cs">
-      <DependentUpon>ViewDocument.xaml</DependentUpon>
-    </Compile>
-    <Page Include="CreateSheets.xaml">
+    <Page Include="ContainerPrompt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ErrorPage.xaml">
+    <Page Include="CreateSheets.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -133,10 +133,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ViewDocument.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -163,12 +159,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="ab0b0b4426910a257d9c6f11418db03eb385b5a62b5044b7eebf8f94d6c84f9a.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="download.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
