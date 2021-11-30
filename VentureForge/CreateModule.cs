@@ -69,7 +69,7 @@ namespace VentureForge
         private void ExamineAssets_Click(object sender, RoutedEventArgs e)
         {
             if (named) {
-                new ExamineExistingAssests().Show();
+                new ExamineExistingAssets().Show();
                 Close();
             }
             
@@ -97,7 +97,7 @@ namespace VentureForge
         {
             if (named)
             {
-                new UploadeModule().Show();
+                new UploadModule().Show();
                 
                 Close();
             }
@@ -115,11 +115,13 @@ namespace VentureForge
 
         private void SginIn_Click(object sender, RoutedEventArgs e)
         {
-
+            new ErrorPage().Show();
+            Close();
         }
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-
+            new ErrorPage().Show();
+            Close();
         }
 
         private void ModName_TextChanged(object sender, TextChangedEventArgs e)

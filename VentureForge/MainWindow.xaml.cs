@@ -59,13 +59,14 @@ namespace VentureForge
 
         private void Login_Click(Object sender, RoutedEventArgs e)
         {
-            // new Login().Show;
-            // we aren't doing anything with this one yet
+            new ErrorPage().Show();
+            Close();
         }
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
         {
-
+            new ErrorPage().Show();
+            Close();
         }
 
     }
