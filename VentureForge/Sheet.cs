@@ -34,10 +34,17 @@ namespace VentureForge
             this.name = n;
         }// Sheet constructor, might not be used???
 
-        public void addContainer()
+        public void addContainer(String n, bool cType, bool dType)
         {
-
-            containerList.Add(new Container());
+            if(cType == false)//not a data input
+            {
+                containerList.Add(new Container(n));
+            }
+            else//is a data input
+            {
+                containerList.Add(new Container(n, dType));
+            }
+            
         }
 
 
