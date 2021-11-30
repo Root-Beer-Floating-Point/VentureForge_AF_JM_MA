@@ -38,11 +38,14 @@ namespace VentureForge
         {
             if(cType == false)//not a data input
             {
-                containerList.Add(new Container(n));
+                Container con = new Container(n);
+                containerList.Add(con);
             }
             else//is a data input
             {
-                containerList.Add(new Container(n, dType));
+                Container con = new Container(n, dType);
+                containerList.Add(con);
+              
             }
             
         }
