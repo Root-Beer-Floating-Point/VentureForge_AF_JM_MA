@@ -87,6 +87,7 @@
     <Compile Include="ExamineExistingSheets.xaml.cs">
       <DependentUpon>ExamineExistingSheets.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Module.cs" />
     <Compile Include="Modules.xaml.cs">
       <DependentUpon>Modules.xaml</DependentUpon>
     </Compile>

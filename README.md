@@ -34,6 +34,12 @@ Armed with the core concept for the product, specifications on its features, and
 
 ## NUnit Instructions
 
+The VentureForge prototype contains two instances of unit testing: the first is in the VentureForge project and runs tests on the objects and functionality of the UI program and the second takes place within our Docker container, giving us a place to focus on the non-UI components of VentureForge as well as gain an understanding of how Docker works with unit testing.
+
+In order to run tests in the VentureForge solution in Visual Studio, one must open the project within VentureForge and click on *Test Explorer* under the *Test* tab. This will also require NUnit to be installed. From there, you can click the *Run All Tests in View* option, which will run all of the tests in the UnitTests.cs class. This series of tests seeks to demonstrate and verify the functionality of objects such as the Sheet, Module, and Container, which are all vital to the creation and storage of character sheets and system modules.
+
+This bit is about docker stuff?? we'll see
+
 ## Demonstration Video
 
 ## Reflection
