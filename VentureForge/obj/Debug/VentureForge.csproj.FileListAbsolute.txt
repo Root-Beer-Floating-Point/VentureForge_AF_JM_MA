@@ -24,12 +24,10 @@ C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.g.cs
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.g.cs
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.g.cs
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.g.cs
-C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.g.cs
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.baml
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.baml
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingSheets.baml
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.baml
-C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.baml
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.csprojAssemblyReference.cache
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateSheets.g.cs
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssests.g.cs
@@ -112,3 +110,23 @@ C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadM
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseExistingSheet.baml
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseModule.baml
 C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetList.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetSheet.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ContainerPrompt.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateTable.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ErrorPage.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssets.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadModule.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseExistingSheet.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseModule.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.g.cs
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetList.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetSheet.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ContainerPrompt.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateTable.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ErrorPage.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssets.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadModule.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseExistingSheet.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseModule.baml
+C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.baml
