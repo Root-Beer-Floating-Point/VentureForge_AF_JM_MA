@@ -55,9 +55,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AssetList.xaml.cs">
+      <DependentUpon>AssetList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AssetSheet.xaml.cs">
+      <DependentUpon>AssetSheet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Container.cs" />
     <Compile Include="ContainerPrompt.xaml.cs">
       <DependentUpon>ContainerPrompt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTable.xaml.cs">
+      <DependentUpon>CreateTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.xaml.cs">
+      <DependentUpon>ErrorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineExistingAssets.xaml.cs">
+      <DependentUpon>ExamineExistingAssets.xaml</DependentUpon>
     </Compile>
     <Compile Include="Memory.cs" />
     <Compile Include="CreateModule.cs">
@@ -82,9 +97,26 @@
     <Compile Include="UploadAssests.xaml.cs">
       <DependentUpon>UploadAssests.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UploadeModule.xaml.cs">
-      <DependentUpon>UploadeModule.xaml</DependentUpon>
+    <Compile Include="UploadModule.xaml.cs">
+      <DependentUpon>UploadModule.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UseExistingSheet.xaml.cs">
+      <DependentUpon>UseExistingSheet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UseModule.xaml.cs">
+      <DependentUpon>UseModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDocument.xaml.cs">
+      <DependentUpon>ViewDocument.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AssetList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AssetSheet.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="ContainerPrompt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -93,9 +125,21 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="CreateTable.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ErrorPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="ExamineExistingAssests.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExamineExistingAssets.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="ExamineExistingSheets.xaml">
       <SubType>Designer</SubType>
@@ -129,9 +173,21 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="UploadeModule.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="UploadModule.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UseExistingSheet.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UseModule.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ViewDocument.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>

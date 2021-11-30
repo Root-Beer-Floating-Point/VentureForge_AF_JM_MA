@@ -42,11 +42,13 @@ namespace VentureForge
 
         private void SginIn_Click(object sender, RoutedEventArgs e)
         {
-
+            new ErrorPage().Show();
+            Close();
         }
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-
+            new ErrorPage().Show();
+            Close();
         }
 
         private void AddContainer_Click(object sender, RoutedEventArgs e)// allows txt, containers, and data boxes within
