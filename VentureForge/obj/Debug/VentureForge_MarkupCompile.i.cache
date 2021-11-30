@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\
+C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\obj\Debug\
 VentureForge
 none
 false
 DEBUG;TRACE
-C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\App.xaml
-9-820664575
+C:\Users\maith\source\repos\VentureForge_AF_JM_MA\VentureForge\App.xaml
+181062229728
 
-14-1367257325
+26598864421
 13-1310406943
-CreateSheets.xaml;ExamineExistingAssests.xaml;ExamineExistingSheets.xaml;MainWindow.xaml;CreateModule.xaml;Modules.xaml;FindModules.xaml;UploadAssests.xaml;UploadeModule.xaml;
+AssetList.xaml;AssetSheet.xaml;ContainerPrompt.xaml;CreateSheets.xaml;CreateTable.xaml;ErrorPage.xaml;ExamineExistingAssests.xaml;ExamineExistingAssets.xaml;ExamineExistingSheets.xaml;MainWindow.xaml;CreateModule.xaml;Modules.xaml;FindModules.xaml;UploadAssests.xaml;UploadModule.xaml;UseExistingSheet.xaml;UseModule.xaml;ViewDocument.xaml;
 
 True
 
