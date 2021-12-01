@@ -40,6 +40,8 @@ namespace VentureForge
 
         public CreateModule(String name)
         {
+
+            
             
             mod = masterList[name];
             savecount = 1;
@@ -53,7 +55,7 @@ namespace VentureForge
 
             
             InitializeComponent ();
-            ShowName.Text = mod.name;// need to repeat with all data shown
+            ShowName.Text = name;// need to repeat with all data shown
             CreatedSheets.Text = sheets;
         }
 
@@ -126,9 +128,11 @@ namespace VentureForge
 
         private void ModName_TextChanged(object sender, TextChangedEventArgs e)
         {
-          
-            modname = nameBox.Text;
-            named = true;
+          if(savecount == 0) {
+                modname = nameBox.Text;
+                named = true;
+            }
+            
             
         }
 
