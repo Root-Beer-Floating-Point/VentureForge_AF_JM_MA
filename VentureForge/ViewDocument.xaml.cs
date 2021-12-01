@@ -26,38 +26,16 @@ namespace VentureForge
             InitializeComponent();
         }
 
-        private void HomePage_Click(object sender, RoutedEventArgs e)
+        private void Home_Click(object sender, RoutedEventArgs e)
         {
-            new MainWindow().Show();
+            new MainWindow().Show();  
             Close();
         }
 
-        private void PreviousPage_Click(object sender, RoutedEventArgs e)
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
             new ExamineExistingAssets().Show();
             Close();
-        }
-
-        private void LoginPage_Click(object sender, RoutedEventArgs e)
-        {
-            new ErrorPage().Show();
-            Close();
-        }
-
-        private void SignInPage_Click(object sender, RoutedEventArgs e)
-        {
-            new ErrorPage().Show();
-            Close();
-        }
-
-        private void OpenFile_Click(object sender, RoutedEventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            if (openFileDialog.ShowDialog() == true)
-            {
-
-                myTextBox.Text = File.ReadAllText(openFileDialog.FileName);
-            }
         }
     }
 }

@@ -11,26 +11,24 @@
     mc:Ignorable="d">
     <Grid>
         <Image
-            Width="126"
+            Width="118"
             Height="100"
             Margin="0,80,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
             Source="/download.png" />
         <Label
-            Width="144"
-            Margin="0,185,0,134"
+            Margin="0,195,0,173"
             HorizontalAlignment="Center"
-            Background="#00000000"
             Content="ERROR"
-            FontSize="36"
-            FontStyle="Normal"
-            FontWeight="Normal" />
+            FontFamily="mangabey"
+            FontSize="36" />
         <TextBlock
             Margin="0,331,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            FontFamily="Sitka Text"
+            FontFamily="mangabey"
+            FontSize="30"
             Text="Feature is not added. This is still in beta"
             TextWrapping="Wrap" />
         <Button
