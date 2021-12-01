@@ -23,7 +23,7 @@
             Checked="String_Checked"
             Content="String"
             GroupName="DataType"
-            Visibility="Hidden"/>
+            Visibility="Hidden" />
         <TextBox
             x:Name="NameText"
             Width="101"
@@ -48,14 +48,15 @@
             Checked="Integer_Checked"
             Content="Integer"
             GroupName="DataType"
-            Visibility="Hidden"/>
-        <TextBlock x:Name="DataTypeLabel"
+            Visibility="Hidden" />
+        <TextBlock
+            x:Name="DataTypeLabel"
             Margin="33,155,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Text="Data Type:"
             TextWrapping="Wrap"
-            Visibility="Hidden"/>
+            Visibility="Hidden" />
         <RadioButton
             x:Name="Label"
             Margin="110,108,0,0"
@@ -84,8 +85,9 @@
             Margin="103,213,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
+            Click="Done_Click"
             Content="Done"
-            IsEnabled="False" Click="Done_Click" />
+            IsEnabled="False" />
 
     </Grid>
 </Window>
