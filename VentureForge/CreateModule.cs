@@ -87,7 +87,7 @@ namespace VentureForge
         private void ExamineSheets_Click(object sender, RoutedEventArgs e)
         {
             if (named) {
-                new ExamineExistingSheets().Show();
+                new ExamineExistingSheets(mod.name).Show();
                 Close();
             }
             
