@@ -8,37 +8,67 @@
     Title="CreateTable"
     Width="800"
     Height="450"
+    Background="#04c582"
     mc:Ignorable="d">
-    <Grid>
-        <Button
-            Width="75"
-            Margin="372,170,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="CreateAsset_Click"
-            Content="Create Asset" />
-        <Button
-            Width="75"
-            Margin="372,194,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="AddAsset_Click"
-            Content="Add Asset" />
-        <Button
-            Width="75"
-            Margin="31,40,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Home_Click"
-            Content="Home" />
-        <Button
-            Width="75"
-            Margin="688,40,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Back_Click"
-            Content="Back"
-            RenderTransformOrigin="0.553,-0.896" />
+    <Border
+        Margin="20"
+        Background="#2e3137"
+        CornerRadius="20">
+        <StackPanel>
+            <Label
+                HorizontalAlignment="Center"
+                Content="Create Table"
+                FontFamily="Mangabey"
+                FontSize="35"
+                Foreground="White" />
+            <Grid>
+                <Button
+                    Width="75"
+                    Margin="150,80,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="CreateAsset_Click"
+                    Content="Create Asset"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White" />
+                <Button
+                    Width="75"
+                    Margin="150,100,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="AddAsset_Click"
+                    Content="Add Asset"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White" />
+                <Button
+                    Width="75"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Home_Click"
+                    Content="Home"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White" />
+                <Button
+                    Width="75"
+                    Margin="75,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Back_Click"
+                    Content="Back"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White"
+                    RenderTransformOrigin="0.553,-0.896" />
 
-    </Grid>
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>

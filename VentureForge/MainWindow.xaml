@@ -58,11 +58,7 @@
                     Foreground="White"
                     RenderTransformOrigin="1.114,-0.51" />
                 <Button
-<<<<<<< HEAD
-                    Margin="690,5,0,0"
-=======
-                    Margin="698,5,0,0"
->>>>>>> origin/AdamDev
+                    Margin="708,5,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
@@ -73,11 +69,7 @@
                     Foreground="White"
                     RenderTransformOrigin="1.114,-0.51" />
                 <Button
-<<<<<<< HEAD
-                    Margin="606,5,0,0"
-=======
-                    Margin="614,5,0,0"
->>>>>>> origin/AdamDev
+                    Margin="654,5,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"

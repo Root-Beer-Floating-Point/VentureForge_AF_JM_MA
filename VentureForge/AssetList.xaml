@@ -8,37 +8,64 @@
     Title="AssetList"
     Width="800"
     Height="450"
+    Background="#04c582"
     mc:Ignorable="d">
-    <Grid>
-        <Button
-            Width="75"
-            Margin="31,40,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Home_Click"
-            Content="Home" />
-        <Button
-            Width="75"
-            Margin="688,40,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Back_Click"
-            Content="Back"
-            RenderTransformOrigin="0.553,-0.896" />
-        <Border
-            Width="794"
-            Height="346"
-            Margin="0,74,-0.4,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            BorderBrush="Black"
-            BorderThickness="1" />
-        <TextBlock
-            Margin="355,40,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            RenderTransformOrigin="-0.027,0.556"
-            TextWrapping="Wrap"><Run Text="Title of List" /><LineBreak /><Run /></TextBlock>
+    <Border
+        Margin="20"
+        Background="#2e3137"
+        CornerRadius="20">
+        <StackPanel>
+            <Label
+                HorizontalAlignment="Center"
+                Content="Assets List"
+                FontFamily="Mangabey"
+                FontSize="35"
+                Foreground="White" />
+            <Grid>
+                <Button
+                    Width="75"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Home_Click"
+                    Content="Home"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+                <Button
+                    Width="75"
+                    Margin="75,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Back_Click"
+                    Content="Back"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="0.553,-0.896" />
+                <Border
+                    Width="760"
+                    Height="279"
+                    Margin="0,60,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    BorderBrush="Black"
+                    BorderThickness="1" />
+                <TextBlock
+                    Height="20"
+                    Margin="0,35,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Mangabey"
+                    FontSize="20"
+                    Foreground="White"
+                    RenderTransformOrigin="-0.027,0.556"
+                    TextWrapping="Wrap"><Run Text="Title of List" /><LineBreak /><Run /></TextBlock>
 
-    </Grid>
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>
