@@ -23,12 +23,14 @@
                 Foreground="White" />
             <Grid>
                 <Button
+                    x:Name="Home"
+                    Click="Home_Click"
                     Width="75"
                     Margin="0,0,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
-                    Click="Home_Click"
+                    
                     Content="Home"
                     FontFamily="mangabey"
                     FontSize="25"

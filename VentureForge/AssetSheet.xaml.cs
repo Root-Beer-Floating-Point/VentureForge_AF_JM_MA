@@ -21,17 +21,19 @@ namespace VentureForge
     {
         public AssetSheet()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
 
-        private void Home_Click(object sender, RoutedEventArgs e) //Return to Home Page
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
-
+            new ExamineExistingAssets().Show();
+            Close();
         }
 
-        private void Back_Click(object sender, RoutedEventArgs e) //Return to whatever the previous page is
+        private void Home_Click(object sender, RoutedEventArgs e)
         {
-
+            new MainWindow().Show();
+            Close();
         }
     }
 }

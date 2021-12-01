@@ -81,9 +81,6 @@
     <Compile Include="CreateSheets.xaml.cs">
       <DependentUpon>CreateSheets.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ExamineExistingAssests.xaml.cs">
-      <DependentUpon>ExamineExistingAssests.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ExamineExistingSheets.xaml.cs">
       <DependentUpon>ExamineExistingSheets.xaml</DependentUpon>
     </Compile>
@@ -111,12 +108,12 @@
       <DependentUpon>ViewDocument.xaml</DependentUpon>
     </Compile>
     <Page Include="AssetList.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="AssetSheet.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ContainerPrompt.xaml">
       <SubType>Designer</SubType>
@@ -133,10 +130,6 @@
     <Page Include="ErrorPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="ExamineExistingAssests.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ExamineExistingAssets.xaml">
       <Generator>MSBuild:Compile</Generator>
