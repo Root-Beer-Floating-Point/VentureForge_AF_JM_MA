@@ -57,12 +57,14 @@ namespace VentureForge
 
         private void WeaponList_Click(object sender, RoutedEventArgs e)
         {
-
+            new AssetList().Show();
+            Close();
         }
 
         private void PreMadeCharacters_Click(object sender, RoutedEventArgs e)
         {
-
+            new AssetList().Show();
+            Close();
         }
     }
 }
