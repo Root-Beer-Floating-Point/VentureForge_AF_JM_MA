@@ -5,24 +5,18 @@ namespace VentureForgeBackEndTest
     class Program
     {
         String reply;
-
-        Module module;
-        Sheet sheet;
-        Container container;
+        static Memory memory;
+        static Module module;
+        static Sheet sheet;
+        static Container container;
         static void Main(string[] args)
         {
-            Console.WriteLine("Would you like to create a module?");
-            Console.WriteLine("(Y/N)");
-            
-            Console.WriteLine("Would you like to create a sheet?");
-            Console.WriteLine("(Y/N)");
-
-            Console.WriteLine("Would you like to create a container?");
-            Console.WriteLine("(Y/N)");
+            promptModule();
 
         }
 
-        public void promptModule()
+
+        public static void promptModule()
         {
             Console.WriteLine("Would you like to create a module?");
             Console.WriteLine("(Y/N)");
@@ -41,22 +35,23 @@ namespace VentureForgeBackEndTest
             }
         }
 
-        public void fillModule()
+        public static void fillModule()
         {
             module = new Module();
             Console.WriteLine("What's the name of the module?");
             module.setName(Console.ReadLine());
+            memory.addModule(module.name, module);
             promptSheet();
             
         }
 
-        public void promptSheet()
+        public static void promptSheet()
         {
             Console.WriteLine("Would you like to create a sheet?");
             Console.WriteLine("(Y/N)");
             if (Console.ReadLine() == "y" | Console.ReadLine() == "Y")
             {
-
+                fillSheet();
             }
             else if (Console.ReadLine() == "n" | Console.ReadLine() == "N")
             {
@@ -69,23 +64,23 @@ namespace VentureForgeBackEndTest
             }
         }
 
-        public void fillSheet()
+        public static void fillSheet()
         {
             sheet = new Sheet();
-            Console.WriteLine("What's the name of the Sheet?");
+            Console.WriteLine("What's the name of the sheet?");
             sheet.setName(Console.ReadLine());
-            module.AddSheet
+            module.AddSheet(sheet.getName(), sheet);
             promptContainer();
 
         }
 
-        public void promptContainer()
+        public static void promptContainer()
         {
             Console.WriteLine("Would you like to create a container?");
             Console.WriteLine("(Y/N)");
             if (Console.ReadLine() == "y" | Console.ReadLine() == "Y")
             {
-
+                fillContainer();
             }
             else if (Console.ReadLine() == "n" | Console.ReadLine() == "N")
             {
@@ -97,16 +92,42 @@ namespace VentureForgeBackEndTest
                 promptContainer();
             }
         }
-
-        public void fillContainer()
+        public static void fillContainer()
         {
             container = new Container();
-            Console.WriteLine("What's the name of the Container?");
+            Console.WriteLine("What's the name of the container?");
             container.setName(Console.ReadLine());
+            Console.WriteLine("Does the container have an input field?");
+            if(Console.ReadLine() == "y" | Console.ReadLine() == "Y")
+            {
+                container.setData(true);
+                Console.WriteLine("Is the input field an integer?");
+                if (Console.ReadLine() == "y" | Console.ReadLine() == "Y")
+                {
+                    container.setInteger(true);
+
+                }
+                else
+                {
+                    container.setInteger(false);
+                }
+                
+            }
+
+            else
+            {
+                container.setData(false);
+                
+            }
+            sheet.addContainer(container.getName(), container);
             promptContainer();
 
         }
 
+        public static void showAll()
+        {
+            foreach (KeyValuePair<String, Container> ele1 in mod.SheetList[sheetname].containerList)
+        }
 
     }
 }

@@ -17,9 +17,10 @@ namespace VentureForgeBackEndTest
 
         }// probably won't need to make a memory object ever, we'll see
 
-        public void getAllModules()
-        {
 
+        public void addModule(String name, Module module)
+        {
+            modList.Add(name, module);
         }
     }
 

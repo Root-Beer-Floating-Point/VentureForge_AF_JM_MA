@@ -49,7 +49,7 @@ namespace VentureForgeBackEndTest
         {
             return integer;
         }
-        public void setdata(bool d)
+        public void setData(bool d)
         {
             dataEntry = d;
         }

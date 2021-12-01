@@ -32,9 +32,9 @@ namespace VentureForgeBackEndTest
             count++;
         }
 
-        public void addSheet(Sheet sheet)
+        public void addSheet(String s, Sheet sheet)
         {
-            SheetList.Add()
+            SheetList.Add(s, sheet);
         }
 
         public void setName(String n)

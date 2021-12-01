@@ -10,13 +10,13 @@ namespace VentureForgeBackEndTest
 {
     public class Sheet
     {
-
+        int count = 0;
         public String name = "";
-       // public Button addButton;
-       // public Border sheetBorder;
+        // public Button addButton;
+        // public Border sheetBorder;
         //public double width;
         //public double height;
-        public List<Container> containerList = new List<Container>();
+        public Dictionary<String, Container> containerList = new Dictionary<String, Container> ();
         //public int counter = 0;
         
 
@@ -37,32 +37,47 @@ namespace VentureForgeBackEndTest
             this.name = n;
         }// Sheet constructor, might not be used???
 
-        public void addContainer(String n, bool cType, bool dType)
+       /* public void addContainer(String n, bool cType, bool dType)
         {
             if(cType == false)//not a data input
             {
                 Container con = new Container(n);
-                containerList.Add(con);
+                con.setData(cType);
+                containerList.Add(n, con);
             }
             else//is a data input
             {
                 Container con = new Container(n, dType);
-                containerList.Add(con);
+                containerList.Add(n, con);
               
             }
             //counter++;
             
+        }*/
+
+            public void addContainer(String n, Container container)
+        {
+            containerList.Add(n, container);
+            if (count == 0) { containerList.Add(n, container); }
+            else { containerList.Remove(n); containerList.Add(n, container); }
+            count++;
         }
 
-        public Container getContainer()
+        /*public Container getContainer()
         {
             return containerList.Last();
         }
-
+        */
         public void setName(String n)
         {
             name = n;
         }
+
+        public String getName()
+        {
+            return name;
+        }
+
         public void getAllContainers()
         {
             //iterate through list of containers
