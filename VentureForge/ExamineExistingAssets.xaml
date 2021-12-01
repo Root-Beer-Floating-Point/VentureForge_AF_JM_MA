@@ -10,62 +10,103 @@
     Height="450"
     Background="#04c582"
     mc:Ignorable="d">
-    
-    <Grid>
-        <Button
-            x:Name="SignIn"
-            Margin="705,10,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="SignIn_Click"
-            Content="Sign in" />
-        <Button
-            x:Name="Login"
-            Margin="750,10,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Login_Click"
-            Content="Login" />
-        <Button
-            x:Name="Home"
-            Margin="10,10,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Home_Click"
-            Content="Home" />
-        <Button
-            x:Name="RulesDocument"
-            Width="210"
-            Height="40"
-            Margin="309,89,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="RulesDocument_Click"
-            Content="Rules" />
-        <Button
-            x:Name="PreMadeCharacters"
-            Width="210"
-            Height="50"
-            Margin="309,206,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="PreMadeCharacters_Click"
-            Content="Characters" />
-        <Button
-            x:Name="WeaponList"
-            Width="210"
-            Height="45"
-            Margin="309,147,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="WeaponList_Click"
-            Content="Weapons" />
-        <Button
-            x:Name="PreviousPage"
-            Margin="68,10,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="PreviousPage_Click"
-            Content="previous" />
-    </Grid>
+    <Border
+        Margin="20"
+        Background="#2e3137"
+        CornerRadius="20">
+        <StackPanel>
+            <Label
+                HorizontalAlignment="Center"
+                Content="Examine Existing Assets"
+                FontFamily="Mangabey"
+                FontSize="35"
+                Foreground="White" />
+
+            <Grid>
+                <Button
+                    x:Name="SignIn"
+                    Margin="664,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="SignIn_Click"
+                    Content="Sign in"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+                <Button
+                    x:Name="Login"
+                    Margin="718,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Login_Click"
+                    Content="Login"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+                <Button
+                    x:Name="Home"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Home_Click"
+                    Content="Home"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+                <Button
+                    x:Name="RulesDocument"
+                    Width="210"
+                    Height="40"
+                    Margin="90,89,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="RulesDocument_Click"
+                    Content="Rules"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+                <Button
+                    x:Name="PreMadeCharacters"
+                    Width="210"
+                    Height="50"
+                    Margin="90,206,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="PreMadeCharacters_Click"
+                    Content="Characters"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+                <Button
+                    x:Name="WeaponList"
+                    Width="210"
+                    Height="45"
+                    Margin="90,147,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="WeaponList_Click"
+                    Content="Weapons"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+                <Button
+                    x:Name="PreviousPage"
+                    Margin="43,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="PreviousPage_Click"
+                    Content="previous"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>

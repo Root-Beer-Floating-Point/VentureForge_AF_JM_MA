@@ -21,7 +21,7 @@ namespace VentureForge
     {
         public AssetSheet()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
 
         private void Home_Click(object sender, RoutedEventArgs e) //Return to Home Page
