@@ -8,7 +8,9 @@
     Title="ExamineExistingAssets"
     Width="800"
     Height="450"
+    Background="#04c582"
     mc:Ignorable="d">
+    
     <Grid>
         <Button
             x:Name="SignIn"
