@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\obj\Debug\
+=======
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\
+>>>>>>> origin/JacobDev
 VentureForge
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\App.xaml
 17-1381002708
 
 252017132293
 13-1310406943
 AssetList.xaml;AssetSheet.xaml;ContainerPrompt.xaml;CreateSheets.xaml;CreateTable.xaml;ErrorPage.xaml;ExamineExistingAssets.xaml;ExamineExistingSheets.xaml;MainWindow.xaml;CreateModule.xaml;Modules.xaml;FindModules.xaml;UploadAssests.xaml;UploadModule.xaml;UseExistingSheet.xaml;UseModule.xaml;ViewDocument.xaml;
+=======
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\App.xaml
+181615955978
+
+26-58819359
+13-1505183044
+AssetList.xaml;AssetSheet.xaml;ContainerPrompt.xaml;CreateSheets.xaml;CreateTable.xaml;ErrorPage.xaml;ExamineExistingAssests.xaml;ExamineExistingAssets.xaml;ExamineExistingSheets.xaml;MainWindow.xaml;CreateModule.xaml;Modules.xaml;FindModules.xaml;UploadAssests.xaml;UploadModule.xaml;UseExistingSheet.xaml;UseModule.xaml;ViewDocument.xaml;
+>>>>>>> origin/JacobDev
 
 False
 
