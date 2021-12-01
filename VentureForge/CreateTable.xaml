@@ -18,31 +18,31 @@
             <Label
                 HorizontalAlignment="Center"
                 Content="Create Table"
-                FontFamily="Mangabey"
+                FontFamily="Georgia"
                 FontSize="35"
                 Foreground="White" />
             <Grid>
                 <Button
                     Width="150"
-                    Margin="160,135,0,0"
+                    Margin="150,130,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
                     Click="CreateAsset_Click"
                     Content="Create Asset"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="18"
                     Foreground="White" />
                 <Button
                     Width="150"
-                    Margin="424,135,0,0"
+                    Margin="460,130,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
                     Click="AddAsset_Click"
                     Content="Add Asset"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="18"
                     Foreground="White" />
                 <Button
                     Width="75"
@@ -52,8 +52,8 @@
                     Background="#545d6a"
                     Click="Home_Click"
                     Content="Home"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="14"
                     Foreground="White" />
                 <Button
                     Width="75"
@@ -63,8 +63,8 @@
                     Background="#545d6a"
                     Click="Back_Click"
                     Content="Back"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="14"
                     Foreground="White"
                     RenderTransformOrigin="0.553,-0.896" />
 
