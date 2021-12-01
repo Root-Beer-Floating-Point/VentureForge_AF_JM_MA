@@ -23,26 +23,26 @@
                 Foreground="White" />
             <Grid>
                 <Button
-                    Width="75"
-                    Margin="150,80,0,0"
+                    Width="150"
+                    Margin="160,135,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
                     Click="CreateAsset_Click"
                     Content="Create Asset"
                     FontFamily="mangabey"
-                    FontSize="15"
+                    FontSize="25"
                     Foreground="White" />
                 <Button
-                    Width="75"
-                    Margin="150,100,0,0"
+                    Width="150"
+                    Margin="424,135,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
                     Click="AddAsset_Click"
                     Content="Add Asset"
                     FontFamily="mangabey"
-                    FontSize="15"
+                    FontSize="25"
                     Foreground="White" />
                 <Button
                     Width="75"
@@ -53,7 +53,7 @@
                     Click="Home_Click"
                     Content="Home"
                     FontFamily="mangabey"
-                    FontSize="15"
+                    FontSize="25"
                     Foreground="White" />
                 <Button
                     Width="75"
@@ -64,7 +64,7 @@
                     Click="Back_Click"
                     Content="Back"
                     FontFamily="mangabey"
-                    FontSize="15"
+                    FontSize="25"
                     Foreground="White"
                     RenderTransformOrigin="0.553,-0.896" />
 

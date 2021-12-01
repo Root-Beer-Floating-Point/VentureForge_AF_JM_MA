@@ -4,13 +4,22 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\
+=======
+C:\Users\maith\OneDrive\سطح المكتب\CS400\aaaaa\VentureForge_AF_JM_MA\VentureForge\obj\Debug\
+>>>>>>> origin/MaithamDevTest
 VentureForge
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\App.xaml
 17-1462091117
+=======
+C:\Users\maith\OneDrive\سطح المكتب\CS400\aaaaa\VentureForge_AF_JM_MA\VentureForge\App.xaml
+17-1381002708
+>>>>>>> origin/MaithamDevTest
 
 25-1212896266
 13-1505183044

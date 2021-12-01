@@ -8,95 +8,163 @@
     Title="UploadModule"
     Width="800"
     Height="450"
+    Background="#04c582"
     mc:Ignorable="d">
-    <Grid>
-        <TextBox
-            Width="120"
-            Height="16"
-            Margin="335,121,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            TextWrapping="Wrap" />
-        <TextBlock
-            Margin="294,121,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="Title:"
-            TextWrapping="Wrap" />
-        <TextBlock
-            Margin="262,137,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="Availibility:"
-            TextWrapping="Wrap" />
-        <TextBox
-            Width="120"
-            Height="16"
-            Margin="335,153,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            TextWrapping="Wrap" />
-        <TextBlock
-            Margin="279,153,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="Edition:"
-            TextWrapping="Wrap" />
-        <TextBox
-            Width="120"
-            Height="16"
-            Margin="335,169,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            TextWrapping="Wrap" />
-        <TextBlock
-            Margin="280,169,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="Author:"
-            TextWrapping="Wrap" />
-        <TextBox
-            Width="120"
-            Height="16"
-            Margin="335,185,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            TextWrapping="Wrap" />
-        <TextBlock
-            Margin="256,185,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="Description:"
-            TextWrapping="Wrap" />
-        <ComboBox
-            Width="120"
-            Height="17"
-            Margin="335,137,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top" />
-        <Button
-            Width="75"
-            Margin="31,40,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Home_Click"
-            Content="Home" />
-        <Button
-            Width="75"
-            Margin="688,40,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Back_Click"
-            Content="Back"
-            RenderTransformOrigin="0.553,-0.896" />
-        <Button
-            Width="75"
-            Margin="688,324,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Save_Click"
-            Content="Save"
-            RenderTransformOrigin="0.553,-0.896" />
+    <Border
+        Margin="20"
+        Background="#2e3137"
+        CornerRadius="20">
+        <StackPanel>
+            <Label
+                HorizontalAlignment="Center"
+                Content="Upload Modules"
+                FontFamily="Mangabey"
+                FontSize="35"
+                Foreground="White" />
+            <Grid>
+                <TextBox
+                    Width="120"
+                    Height="16"
+                    Margin="269,70,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    Width ="75"
+                    Margin="150,59,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    Text="Title:"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    Width="75"
+                    Margin="150,102,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="22"
+                    Foreground="White"
+                    Text="Availibility:"
+                    TextWrapping="Wrap" />
+                <TextBox
+                    Width="120"
+                    Height="16"
+                    Margin="269,151,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    Margin="150,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    Text="Edition:"
+                    TextWrapping="Wrap" />
+                <TextBox
+                    Width="120"
+                    Height="16"
+                    Margin="269,192,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    Margin="150,180,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    Text="Author:"
+                    TextWrapping="Wrap" />
+                <TextBox
+                    Width="120"
+                    Height="16"
+                    Margin="269,231,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    Margin="150,220,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    Text="Description:"
+                    TextWrapping="Wrap" />
+                <ComboBox
+                    Width="120"
+                    Height="17"
+                    Margin="269,111,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="mangabey"
+                    FontSize="15"
+                    Foreground="White" />
+                <Button
+                    Width="75"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Home_Click"
+                    Content="Home"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White" />
+                <Button
+                    Width="75"
+                    Margin="75,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Back_Click"
+                    Content="Back"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="0.553,-0.896" />
+                <Button
+                    Width="76"
+                    Margin="0,270,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Save_Click"
+                    Content="Save"
+                    FontFamily="mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="0.553,-0.896" />
 
-    </Grid>
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>

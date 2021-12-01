@@ -24,9 +24,9 @@
 
             <Grid>
                 <Button
+                    Width="75"
                     x:Name="SignIn"
-                    Margin="664,0,0,0"
-                    HorizontalAlignment="Left"
+                    Margin="610,0,75,0"
                     VerticalAlignment="Top"
                     Background="#545d6a"
                     Click="SignIn_Click"
@@ -35,8 +35,9 @@
                     FontSize="25"
                     Foreground="White" />
                 <Button
+                    Width="75"
                     x:Name="Login"
-                    Margin="718,0,0,0"
+                    Margin="685,0,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
@@ -46,6 +47,7 @@
                     FontSize="25"
                     Foreground="White" />
                 <Button
+                    Width="75"
                     x:Name="Home"
                     Margin="0,0,0,0"
                     HorizontalAlignment="Left"
@@ -96,13 +98,14 @@
                     FontSize="25"
                     Foreground="White" />
                 <Button
+                    Width="75"
                     x:Name="PreviousPage"
-                    Margin="43,0,0,0"
+                    Margin="75,0,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
                     Click="PreviousPage_Click"
-                    Content="previous"
+                    Content="Back"
                     FontFamily="mangabey"
                     FontSize="25"
                     Foreground="White" />
