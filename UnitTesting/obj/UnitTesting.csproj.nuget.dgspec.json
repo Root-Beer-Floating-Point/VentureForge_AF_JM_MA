@@ -3,6 +3,7 @@
   "restore": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {}
 =======
     "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {}
@@ -34,31 +35,40 @@
 =======
         "outputPath": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
 >>>>>>> origin/MaithamDevTest
+=======
+    "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+        "projectName": "UnitTesting",
+        "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+        "packagesPath": "C:\\Users\\adfis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+>>>>>>> origin/AdamDevTest2
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\maith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adfis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
->>>>>>> origin/JacobDev
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
               "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
@@ -71,6 +81,10 @@
               "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
                 "projectPath": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
 >>>>>>> origin/MaithamDevTest
+=======
+              "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+                "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+>>>>>>> origin/AdamDevTest2
               }
             }
           }
@@ -82,7 +96,8 @@
         }
       },
       "frameworks": {
-        "net60": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -101,10 +116,26 @@
               "version": "[3.1.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
@@ -115,19 +146,18 @@
         "projectUniqueName": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
         "projectName": "VentureForge",
         "projectPath": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
+=======
+    "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
+        "projectName": "VentureForge",
+        "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
+>>>>>>> origin/AdamDevTest2
         "frameworks": {
           "net472": {
             "projectReferences": {}
           }
         }
-=======
-    "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
-        "projectName": "VentureForge",
-        "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
->>>>>>> origin/JacobDev
       },
       "frameworks": {
         "net472": {}
