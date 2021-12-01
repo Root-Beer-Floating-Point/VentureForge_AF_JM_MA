@@ -24,8 +24,8 @@
 
             <Grid>
                 <Button
-                    Width="75"
                     x:Name="SignIn"
+                    Width="75"
                     Margin="610,0,75,0"
                     VerticalAlignment="Top"
                     Background="#545d6a"
@@ -35,8 +35,8 @@
                     FontSize="14"
                     Foreground="White" />
                 <Button
-                    Width="75"
                     x:Name="Login"
+                    Width="75"
                     Margin="685,0,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
@@ -47,8 +47,8 @@
                     FontSize="14"
                     Foreground="White" />
                 <Button
-                    Width="75"
                     x:Name="Home"
+                    Width="75"
                     Margin="0,0,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
@@ -98,8 +98,8 @@
                     FontSize="18"
                     Foreground="White" />
                 <Button
-                    Width="75"
                     x:Name="PreviousPage"
+                    Width="75"
                     Margin="75,0,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
@@ -109,6 +109,13 @@
                     FontFamily="Georgia"
                     FontSize="14"
                     Foreground="White" />
+                <Image
+                    Width="328"
+                    Height="245"
+                    Margin="489,47,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Source="/Rufus.png" />
             </Grid>
         </StackPanel>
     </Border>

@@ -67,6 +67,13 @@
                     FontSize="14"
                     Foreground="White"
                     RenderTransformOrigin="0.553,-0.896" />
+                <Image
+                    Width="220"
+                    Height="130"
+                    Margin="287,172,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Source="/Ludo.png" />
             </Grid>
         </StackPanel>
     </Border>

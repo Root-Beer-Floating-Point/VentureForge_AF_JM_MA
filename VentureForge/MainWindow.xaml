@@ -87,6 +87,13 @@
                     FontSize="14"
                     Foreground="White"
                     RenderTransformOrigin="-0.331,-0.006" />
+                <Image
+                    Width="343"
+                    Height="262"
+                    Margin="368,42,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Source="/VF Logo.png" />
             </Grid>
         </StackPanel>
     </Border>

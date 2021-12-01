@@ -34,7 +34,7 @@
                     Foreground="White"
                     TextWrapping="Wrap" />
                 <TextBlock
-                    Width ="150"
+                    Width="150"
                     Margin="150,52,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
@@ -58,13 +58,14 @@
                 <TextBox
                     Width="120"
                     Height="16"
+                    Margin="0,135,0,0"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Top"
                     Background="#545d6a"
                     FontFamily="mangabey"
                     FontSize="15"
                     Foreground="White"
-                    TextWrapping="Wrap" Margin="0,135,0,0" />
+                    TextWrapping="Wrap" />
                 <TextBlock
                     Width="150"
                     Margin="150,133,0,0"
@@ -155,7 +156,7 @@
                     RenderTransformOrigin="0.553,-0.896" />
                 <Button
                     Width="76"
-                    Margin="644,287,0,0"
+                    Margin="684,88,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
@@ -165,7 +166,11 @@
                     FontSize="18"
                     Foreground="White"
                     RenderTransformOrigin="0.553,-0.896" />
-
+                <Image
+                    Width="314"
+                    Height="159"
+                    Margin="459,92,-13,60"
+                    Source="/Ludo.png" />
             </Grid>
         </StackPanel>
     </Border>

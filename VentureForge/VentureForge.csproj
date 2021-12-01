@@ -240,5 +240,14 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VF Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Rufus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ludo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

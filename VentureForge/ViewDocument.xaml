@@ -64,7 +64,13 @@
                     Foreground="White"
                     RenderTransformOrigin="-0.027,0.556"
                     TextWrapping="Wrap"><Run Text="Rules Documents" /><LineBreak /><Run /></TextBlock>
-
+                <Image
+                    Width="100"
+                    Height="100"
+                    Margin="647,-44,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Source="/Ludo.png" />
             </Grid>
         </StackPanel>
     </Border>

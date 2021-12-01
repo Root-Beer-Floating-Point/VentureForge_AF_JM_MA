@@ -241,8 +241,17 @@
                     Foreground="White"
                     Text="None"
                     TextWrapping="Wrap" />
-
+                <Image
+                    Width="42"
+                    Height="58"
+                    Margin="10,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Bottom"
+                    Source="/Rufus.png" />
+                
             </Grid>
+
+
         </StackPanel>
     </Border>
 </Window>
