@@ -22,7 +22,29 @@
                 FontFamily="Georgia"
                 FontSize="35"
                 Foreground="White" />
+            <Button
+                    Margin="708,5,0,0"
+                    HorizontalAlignment="Left"
+                    Background="#545d6a"
+                    Click="Login_Click"
+                    Content="Login"
+                    FontFamily="Mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="1.114,-0.51" />
+            <Button
+                    Margin="620,-35,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="SignIn_Click"
+                    Content="Sign in"
+                    FontFamily="Mangabey"
+                    FontSize="25"
+                    Foreground="White"
+                    RenderTransformOrigin="-0.331,-0.006" />
             <Grid />
+            <StackPanel x:Name="sp" Height="100"/>
         </StackPanel>
     </Border>
 </Window>

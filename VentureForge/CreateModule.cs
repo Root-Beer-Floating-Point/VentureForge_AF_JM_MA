@@ -40,9 +40,12 @@ namespace VentureForge
 
         public CreateModule(String name)
         {
+
+            
             
             mod = masterList[name];
             savecount = 1;
+            named = true;
 
             String sheets = " - ";
 
@@ -53,7 +56,7 @@ namespace VentureForge
 
             
             InitializeComponent ();
-            ShowName.Text = mod.name;// need to repeat with all data shown
+            ShowName.Text = name;// need to repeat with all data shown
             CreatedSheets.Text = sheets;
         }
 
@@ -87,7 +90,7 @@ namespace VentureForge
         private void ExamineSheets_Click(object sender, RoutedEventArgs e)
         {
             if (named) {
-                new ExamineExistingSheets().Show();
+                new ExamineExistingSheets(mod.name).Show();
                 Close();
             }
             
@@ -126,16 +129,17 @@ namespace VentureForge
 
         private void ModName_TextChanged(object sender, TextChangedEventArgs e)
         {
-          
-            modname = nameBox.Text;
-            named = true;
+          if(savecount == 0) {
+                modname = nameBox.Text;
+                named = true;
+            }
+            
             
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            if (named) 
-            { 
+            
             
                 ShowName.Text = modname;
                 mod.name = modname;
@@ -144,7 +148,7 @@ namespace VentureForge
                       masterList.Add(mod.name, mod); }
                 savecount++;
             
-            }
+            
             
         }
     }
