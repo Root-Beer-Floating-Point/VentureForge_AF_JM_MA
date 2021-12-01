@@ -8,86 +8,124 @@
     Title="ContainerPrompt"
     Width="300"
     Height="300"
+    Background="#04c582"
     mc:Ignorable="d">
-    <Grid>
-        <Label
-            Margin="90,22,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Content="Adding Container" />
-        <RadioButton
-            x:Name="String"
-            Margin="110,156,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Checked="String_Checked"
-            Content="String"
-            GroupName="DataType"
-            Visibility="Hidden" />
-        <TextBox
-            x:Name="NameText"
-            Width="101"
-            Height="15"
-            Margin="134,67,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text=""
-            TextChanged="TextBox_TextChanged"
-            TextWrapping="Wrap" />
-        <TextBlock
-            Margin="26,66,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="Name of Container:"
-            TextWrapping="Wrap" />
-        <RadioButton
-            x:Name="Integer"
-            Margin="180,156,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Checked="Integer_Checked"
-            Content="Integer"
-            GroupName="DataType"
-            Visibility="Hidden" />
-        <TextBlock
-            x:Name="DataTypeLabel"
-            Margin="33,155,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="Data Type:"
-            TextWrapping="Wrap"
-            Visibility="Hidden" />
-        <RadioButton
-            x:Name="Label"
-            Margin="110,108,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Checked="Label_Checked"
-            Content="Label"
-            GroupName="ContainerType" />
-        <RadioButton
-            x:Name="Input"
-            Margin="180,108,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Checked="Input_Checked"
-            Content="Input"
-            GroupName="ContainerType" />
-        <TextBlock
-            Margin="10,107,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="Container Type:"
-            TextWrapping="Wrap" />
-        <Button
-            x:Name="Done"
-            Width="75"
-            Margin="103,213,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Done_Click"
-            Content="Done"
-            IsEnabled="False" />
+    <Border
+        Margin="20"
+        Background="#2e3137"
+        CornerRadius="20">
+        <StackPanel>
+            <Label HorizontalAlignment="Center"
+                Content="Container Prompt"
+                FontFamily="Georgia"
+                FontSize="25"
+                Foreground="White" />
+            <Grid>
+                <Label
+                    Background="#545d6a"
+                    Foreground="White"
+                    FontFamily="Georgia"
+                    FontSize="18"
+                    Margin="58,10,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Adding Container" />
+                <RadioButton
+                    x:Name="String"
+                    Margin="110,156,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Checked="String_Checked"
+                    Content="String"
+                    GroupName="DataType"
+                    Visibility="Hidden" />
+                <TextBox
+                    Background="#545d6a"
+                    Foreground="White"
+                    FontFamily="Georgia"
+                    FontSize="12"
+                    x:Name="NameText"
+                    Width="101"
+                    Height="15"
+                    Margin="134,70,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Text=""
+                    TextChanged="TextBox_TextChanged"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    Background="#545d6a"
+                    Foreground="White"
+                    FontFamily="Georgia"
+                    FontSize="12"
+                    Margin="20,70,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Text="Name of Container:"
+                    TextWrapping="Wrap" />
+                <RadioButton
+                    x:Name="Integer"
+                    Margin="180,156,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Checked="Integer_Checked"
+                    Content="Integer"
+                    GroupName="DataType"
+                    Visibility="Hidden" />
+                <TextBlock
+                    x:Name="DataTypeLabel"
+                    Margin="33,155,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Text="Data Type:"
+                    TextWrapping="Wrap"
+                    Visibility="Hidden" />
+                <RadioButton
+                    Background="#545d6a"
+                    Foreground="White"
+                    FontFamily="Georgia"
+                    FontSize="12"
+                    x:Name="Label"
+                    Margin="125,108,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Checked="Label_Checked"
+                    Content="Label"
+                    GroupName="ContainerType" />
+                <RadioButton
+                    Background="#545d6a"
+                    Foreground="White"
+                    FontFamily="Georgia"
+                    FontSize="12"
+                    x:Name="Input"
+                    Margin="195,108,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Checked="Input_Checked"
+                    Content="Input"
+                    GroupName="ContainerType" />
+                <TextBlock
+                    Background="#545d6a"
+                    Foreground="White"
+                    FontFamily="Georgia"
+                    FontSize="12"
+                    Margin="20,107,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Text="Container Type:"
+                    TextWrapping="Wrap" />
+                <Button
+                    Background="#545d6a"
+                    x:Name="Done"
+                    Width="76"
+                    Margin="0,171,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Click="Done_Click"
+                    Content="Done"
+                    IsEnabled="False" />
 
-    </Grid>
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>
