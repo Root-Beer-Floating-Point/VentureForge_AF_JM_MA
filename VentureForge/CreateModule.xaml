@@ -121,7 +121,7 @@
                     RenderTransformOrigin="1.57,-0.305" />
                 <Button
                     Width="75"
-                    Margin="532,313,0,0"
+                    Margin="532,295,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
@@ -248,7 +248,7 @@
                     HorizontalAlignment="Left"
                     VerticalAlignment="Bottom"
                     Source="/Rufus.png" />
-                
+
             </Grid>
 
 

@@ -11,35 +11,37 @@
     mc:Ignorable="d">
     <Grid>
         <Button
-            Width="75"
-            Margin="31,40,0,0"
+            Margin="10,0,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Click="Home_Click"
             Content="Home" />
+        
+       
+        
+        
+        
+
+        <Border
+            x:Name="MainBorder"
+            
+            Margin="10,80,10,10"
+            BorderBrush="Black"
+            BorderThickness="2">
+            <ScrollViewer>
+                <StackPanel x:Name="SheetContainer" />
+            </ScrollViewer>
+
+        </Border>
         <Button
-            Width="75"
-            Margin="688,40,0,0"
+            x:Name="Back"
+            Margin="75,0,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Click="Back_Click"
             Content="Back"
-            RenderTransformOrigin="0.553,-0.896" />
-        <Border
-            Width="794"
-            Height="346"
-            Margin="0,74,-0.4,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            BorderBrush="Black"
-            BorderThickness="1" />
-        <TextBlock
-            Margin="355,40,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            RenderTransformOrigin="-0.027,0.556"
-            Text="Title of Sheet"
-            TextWrapping="Wrap" />
+            RenderTransformOrigin="0.613,0.588" />
+        <TextBlock x:Name ="CreatorName" HorizontalAlignment="Left" Margin="80,45,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

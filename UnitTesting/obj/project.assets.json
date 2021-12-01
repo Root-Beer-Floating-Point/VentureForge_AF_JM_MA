@@ -3869,23 +3869,47 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maith\\.nuget\\packages\\": {},
+    "C:\\Users\\adfis\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+=======
       "projectUniqueName": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+>>>>>>> origin/MaithamDevTest
       "projectName": "UnitTesting",
       "projectPath": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
       "packagesPath": "C:\\Users\\maith\\.nuget\\packages\\",
+<<<<<<< HEAD
+      "outputPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+=======
+      "projectUniqueName": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+      "projectName": "UnitTesting",
+      "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+      "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+      "outputPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+>>>>>>> origin/JacobDev
+=======
       "outputPath": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+>>>>>>> origin/MaithamDevTest
+=======
+      "projectUniqueName": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+      "projectName": "UnitTesting",
+      "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+      "packagesPath": "C:\\Users\\adfis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+>>>>>>> origin/AdamDevTest2
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\maith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adfis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3900,8 +3924,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+              "projectPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+=======
+            "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+              "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+>>>>>>> origin/JacobDev
+=======
             "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
               "projectPath": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+>>>>>>> origin/MaithamDevTest
+=======
+            "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+              "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+>>>>>>> origin/AdamDevTest2
             }
           }
         }
