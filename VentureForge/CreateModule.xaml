@@ -8,129 +8,241 @@
     Title="CreateModule"
     Width="800"
     Height="450"
+    Background="#04c582"
     mc:Ignorable="d">
-    <Grid>
-        <Button
-            Margin="95,71,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="UploadAssests_Click"
-            Content="Upload Assets"
-            RenderTransformOrigin="0.512,0.578" />
-        <Button
-            Margin="179,71,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="ExamineAssets_Click"
-            Content="Examine Existing Assets"
-            RenderTransformOrigin="-0.233,-3.675" />
-        <Button
-            Margin="312,71,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="CreateSheets_Click"
-            Content="Create Sheets" />
-        <Button
-            Width="133"
-            Margin="393,71,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="ExamineSheets_Click"
-            Content="Examine Existing Sheets" />
-        <Button
-            Margin="531,71,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="UploadModule_Click"
-            Content="Uploade Module"
-            RenderTransformOrigin="0.541,-1.472" />
-        <Button
-            Margin="10,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Home_Click"
-            Content="Home" />
-        <Button
-            Margin="717,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="SginIn_Click"
-            Content="Sign in" />
-        <Button
-            Margin="757,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Login_Click"
-            Content="Login"
-            RenderTransformOrigin="1.57,-0.305" />
-        <Button
-            Margin="46,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Save_Click"
-            Content="Save" />
-        <Label
-            Margin="95,45,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Content="Name your module: " />
-        <TextBox
-            x:Name="nameBox"
-            Width="120"
-            Margin="213,49,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="TextBox"
-            TextChanged="ModName_TextChanged"
-            TextWrapping="Wrap" />
-        <Label
-            Margin="95,130,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Content="Module Name:" />
-        <Label
-            Margin="95,156,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Content="Created Assets:" />
-        <Label
-            Margin="95,182,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Content="Uploaded Assets:" />
-        <Label
-            Margin="95,208,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Content="Created Sheets:" />
-        <TextBlock
-            x:Name="ShowName"
-            Margin="213,135,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="None"
-            TextWrapping="Wrap" />
-        <TextBlock
-            x:Name="CreatedAssets"
-            Margin="213,161,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="None"
-            TextWrapping="Wrap" />
-        <TextBlock
-            x:Name="UploadedAssets"
-            Margin="213,187,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="None"
-            TextWrapping="Wrap" />
-        <TextBlock
-            x:Name="CreatedSheets"
-            Margin="213,213,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="None"
-            TextWrapping="Wrap" />
+    <Border
+        Margin="20"
+        Background="#2e3137"
+        CornerRadius="20">
+        <StackPanel>
+            <Label
+                HorizontalAlignment="Center"
+                Content="Use Module"
+                FontFamily="Georgia"
+                FontSize="35"
+                Foreground="White" />
+            <Grid>
+                <Button
+                    Width="150"
+                    Height="40"
+                    Margin="96,50,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="UploadAssests_Click"
+                    Content="Upload Assets"
+                    FontFamily="Georgia"
+                    FontSize="18"
+                    Foreground="White"
+                    RenderTransformOrigin="0.512,0.578" />
+                <Button
+                    Width="210"
+                    Height="40"
+                    Margin="96,255,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="ExamineAssets_Click"
+                    Content="Examine Existing Assets"
+                    FontFamily="Georgia"
+                    FontSize="18"
+                    Foreground="White"
+                    RenderTransformOrigin="-0.233,-3.675" />
+                <Button
+                    Width="150"
+                    Height="40"
+                    Margin="96,150,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="CreateSheets_Click"
+                    Content="Create Sheets"
+                    FontFamily="Georgia"
+                    FontSize="18"
+                    Foreground="White" />
+                <Button
+                    Width="210"
+                    Height="40"
+                    Margin="96,200,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="ExamineSheets_Click"
+                    Content="Examine Existing Sheets"
+                    FontFamily="Georgia"
+                    FontSize="18"
+                    Foreground="White" />
+                <Button
+                    Width="150"
+                    Height="40"
+                    Margin="96,99,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="UploadModule_Click"
+                    Content="Upload Module"
+                    FontFamily="Georgia"
+                    FontSize="18"
+                    Foreground="White"
+                    RenderTransformOrigin="0.541,-1.472" />
+                <Button
+                    Width="75"
+                    Margin="0,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Home_Click"
+                    Content="Home"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White" />
+                <Button
+                    Width="75"
+                    Margin="610,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="SginIn_Click"
+                    Content="Sign in"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White" />
+                <Button
+                    Width="75"
+                    Margin="685,0,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Login_Click"
+                    Content="Login"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White"
+                    RenderTransformOrigin="1.57,-0.305" />
+                <Button
+                    Width="75"
+                    Margin="532,313,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Click="Save_Click"
+                    Content="Save"
+                    FontFamily="Georgia"
+                    FontSize="16"
+                    Foreground="White" />
+                <Label
+                    Width="140"
+                    Margin="418,62,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Content="Name your module: "
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White" />
+                <TextBox
+                    x:Name="nameBox"
+                    Width="120"
+                    Margin="578,70,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White"
+                    Text="TextBox"
+                    TextChanged="ModName_TextChanged"
+                    TextWrapping="Wrap" />
+                <Label
+                    Width="140"
+                    Margin="418,111,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Content="Module Name:"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White" />
+                <Label
+                    Width="140"
+                    Margin="418,162,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Content="Created Assets:"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White" />
+                <Label
+                    Width="140"
+                    Margin="418,211,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Content="Uploaded Assets:"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White" />
+                <Label
+                    Width="140"
+                    Margin="418,262,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    Content="Created Sheets:"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White" />
+                <TextBlock
+                    x:Name="ShowName"
+                    Width="120"
+                    Margin="578,115,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White"
+                    Text="None"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    x:Name="CreatedAssets"
+                    Width="120"
+                    Margin="578,166,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White"
+                    Text="None"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    x:Name="UploadedAssets"
+                    Width="120"
+                    Margin="578,217,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White"
+                    Text="None"
+                    TextWrapping="Wrap" />
+                <TextBlock
+                    x:Name="CreatedSheets"
+                    Width="120"
+                    Margin="578,266,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Georgia"
+                    FontSize="14"
+                    Foreground="White"
+                    Text="None"
+                    TextWrapping="Wrap" />
 
-    </Grid>
+            </Grid>
+        </StackPanel>
+    </Border>
 </Window>
