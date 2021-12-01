@@ -34,6 +34,16 @@ namespace VentureForge
             this.mod = mod;
         }
 
+        public CreateSheets(Module mod, string sheetname)
+        {
+            this.mod = mod;
+            nameString = sheetname;
+
+
+
+            InitializeComponent();
+        }
+
         private void Home_Click(object sender, RoutedEventArgs e)
         {
             new MainWindow().Show();

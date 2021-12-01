@@ -19,9 +19,35 @@ namespace VentureForge
     /// </summary>
     public partial class ExamineExistingSheets : Window
     {
-        public ExamineExistingSheets()
+
+        string modName;
+        public ExamineExistingSheets(string modName)
         {
+            this.modName = modName;
+            Dictionary<string, Sheet> allsheets = Memory.modList[modName].SheetList;
+            KeyValuePair<string, Sheet>[] keypairarray = allsheets.ToArray();
             InitializeComponent();
+            for (int i = 0; i < allsheets.Count; i++)
+            {
+                System.Windows.Controls.Button newBtn = new Button();
+
+                newBtn.Content = keypairarray[i].Key;
+                newBtn.Name = keypairarray[i].Key;
+                newBtn.Click += NewBtn_Click;
+                
+               
+
+                sp.Children.Add(newBtn);
+
+            }
+            InitializeComponent();
+        }
+
+        private void NewBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = sender as Button;
+            new CreateSheets(Memory.modList[modName], button.Name).Show();
+            Close();
         }
 
         private void Login_Click(object sender, RoutedEventArgs e)
@@ -36,17 +62,16 @@ namespace VentureForge
             Close();
         }
 
-        private void HomePage_Click(object sender, RoutedEventArgs e)
-        {
-            new MainWindow().Show();
-            Close();
-        }
-
-        private void PreviousPage_Click(object sender, RoutedEventArgs e)
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
             new CreateModule().Show();
             Close();
         }
 
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            new MainWindow().Show();
+            Close();
+        }
     }
 }
