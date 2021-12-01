@@ -18,7 +18,7 @@
             <Label
                 HorizontalAlignment="Center"
                 Content="Examine Existing Assets"
-                FontFamily="Mangabey"
+                FontFamily="Georgia"
                 FontSize="35"
                 Foreground="White" />
 
@@ -31,8 +31,8 @@
                     Background="#545d6a"
                     Click="SignIn_Click"
                     Content="Sign in"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="14"
                     Foreground="White" />
                 <Button
                     Width="75"
@@ -43,8 +43,8 @@
                     Background="#545d6a"
                     Click="Login_Click"
                     Content="Login"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="14"
                     Foreground="White" />
                 <Button
                     Width="75"
@@ -55,8 +55,8 @@
                     Background="#545d6a"
                     Click="Home_Click"
                     Content="Home"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="14"
                     Foreground="White" />
                 <Button
                     x:Name="RulesDocument"
@@ -68,8 +68,8 @@
                     Background="#545d6a"
                     Click="RulesDocument_Click"
                     Content="Rules"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="18"
                     Foreground="White" />
                 <Button
                     x:Name="PreMadeCharacters"
@@ -81,8 +81,8 @@
                     Background="#545d6a"
                     Click="PreMadeCharacters_Click"
                     Content="Characters"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="18"
                     Foreground="White" />
                 <Button
                     x:Name="WeaponList"
@@ -94,8 +94,8 @@
                     Background="#545d6a"
                     Click="WeaponList_Click"
                     Content="Weapons"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="18"
                     Foreground="White" />
                 <Button
                     Width="75"
@@ -106,8 +106,8 @@
                     Background="#545d6a"
                     Click="PreviousPage_Click"
                     Content="Back"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="14"
                     Foreground="White" />
             </Grid>
         </StackPanel>

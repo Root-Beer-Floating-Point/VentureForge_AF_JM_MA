@@ -21,13 +21,13 @@
             Margin="0,195,0,173"
             HorizontalAlignment="Center"
             Content="ERROR"
-            FontFamily="mangabey"
+            FontFamily="Georgia"
             FontSize="36" />
         <TextBlock
             Margin="0,331,0,0"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
-            FontFamily="mangabey"
+            FontFamily="Georgia"
             FontSize="30"
             Text="Feature is not added. This is still in beta"
             TextWrapping="Wrap" />
@@ -36,6 +36,8 @@
             Margin="10,10,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
+            FontFamily="Georgia"
+            FontSize="14"
             Click="Home_Click"
             Content="Home" />
 

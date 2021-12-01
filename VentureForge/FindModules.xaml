@@ -19,7 +19,7 @@
             <Label
                 HorizontalAlignment="Center"
                 Content="Find Modules"
-                FontFamily="Mangabey"
+                FontFamily="Georgia"
                 FontSize="35"
                 Foreground="White" />
             <Grid />
