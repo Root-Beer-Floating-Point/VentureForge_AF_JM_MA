@@ -50,21 +50,22 @@
             VerticalAlignment="Top"
             Click="Save_Click"
             Content="Save" />
+        <Button
+            Margin="640,48,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="AddContainer_Click"
+            Content="Add Container Box"
+            RenderTransformOrigin="0.414,0.635" />
 
         <Border
+            x:Name="MainBorder"
             Margin="10,80,10,10"
             BorderBrush="Black"
             BorderThickness="2">
-            <StackPanel>
-                <Button
-                    Margin="321.4,50.4,0,0"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Click="AddContainer_Click"
-                    Content="Add Container Box"
-                    RenderTransformOrigin="0.414,0.635" />
-
-            </StackPanel>
+            <ScrollViewer>
+                <StackPanel x:Name="SheetContainer" />
+            </ScrollViewer>
 
         </Border>
         <Button

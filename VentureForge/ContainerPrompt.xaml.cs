@@ -26,16 +26,24 @@ namespace VentureForge
         public bool name = false;
         public bool type = false;
         public bool type2 = false;
-        Window previousWindow;
-        Sheet sheet;
+        public Window previousWindow;
+        public CreateSheets previousWindow2;
+        public Sheet sheet;
         public ContainerPrompt()
         {
             InitializeComponent();
         }
-        public ContainerPrompt(Window window, Sheet s)
+        /*public ContainerPrompt(Window window, Sheet s)
         {
             sheet = s;
             previousWindow = window;
+            InitializeComponent();
+        }*/
+
+        public ContainerPrompt(CreateSheets window2, Sheet s)
+        {
+            sheet = s;
+            previousWindow2 = window2;
             InitializeComponent();
         }
 
@@ -103,12 +111,11 @@ namespace VentureForge
         private void Done_Click(object sender, RoutedEventArgs e)
         {
             sheet.addContainer(nameInput, cTypeInput, dTypeInput);
-            
+            previousWindow2.addContainer();
             Console.WriteLine("bye");
             Close();
             Console.WriteLine("hi");
         }
-
 
     }
 }

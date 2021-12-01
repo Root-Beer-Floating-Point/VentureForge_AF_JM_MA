@@ -10,7 +10,7 @@ namespace VentureForge
     {
         public String name;
         public bool integer; //if true it's an integer data field
-        public bool dataEntry; //if true it's a data entry container
+        public bool dataEntry = false; //if true it's a data entry container
 
         public Container()
         {
@@ -19,12 +19,10 @@ namespace VentureForge
 
         public Container(String n, bool dType)
         {
+            dataEntry = true;
             name = n;
             integer = dType;
-            if(integer == true)
-            {
-
-            }
+            
         }
 
         public Container(String n)

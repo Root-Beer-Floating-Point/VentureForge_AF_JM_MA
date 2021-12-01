@@ -26,12 +26,24 @@ namespace VentureForge
     {
         public Module mod;
         public Dictionary<string, Module> masterList = Memory.modList;
-        public Sheet creator = new Sheet();
+        public Sheet creator;
         public String nameString = "";
+        public Window window;
+        public CreateSheets window2;
+        public Container addedContainer;
+        public Border border;
+        public TextBox textBox;
+        public StackPanel stackPanel;
+        public TextBox labelText;
         public CreateSheets(Module mod)
         {
             InitializeComponent();
             this.mod = mod;
+            window = this;
+            window2 = this;
+            
+            creator = new Sheet();
+            
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
@@ -53,7 +65,7 @@ namespace VentureForge
 
         private void AddContainer_Click(object sender, RoutedEventArgs e)// allows txt, containers, and data boxes within
         {
-
+            new ContainerPrompt(window2, creator).Show();
         }
 
         private void CreatorName_TextChanged(object sender, TextChangedEventArgs e)
@@ -77,6 +89,42 @@ namespace VentureForge
             new CreateModule(mod.name).Show();
             Close();
 
+        }
+
+        public void addContainer()
+        {
+            addedContainer = creator.getContainer();
+            stackPanel = new StackPanel();
+            stackPanel.Name = addedContainer.name;
+            textBox = new TextBox();
+            textBox.Name = addedContainer.name + "txt";
+            border = new Border();
+            border.Name = addedContainer.name + "bdr";
+            labelText = new TextBox();
+            labelText.Name = addedContainer.name + "lbl";
+            border.Width = MainBorder.ActualWidth;
+            SheetContainer.Width = MainBorder.ActualWidth;
+
+            border.Child = stackPanel;
+            stackPanel.Orientation = Orientation.Horizontal;
+            stackPanel.Children.Add(labelText);
+            labelText.Text = "Enter whatever your heart desires";
+            labelText.Width = MainBorder.ActualWidth;
+            labelText.TextWrapping = TextWrapping.Wrap;
+            textBox.TextWrapping = TextWrapping.Wrap;
+            
+
+            if (addedContainer.dataEntry == true)
+            {
+                labelText.Width = MainBorder.ActualWidth/2;
+                labelText.Text = "Give a label for your input field";
+                stackPanel.Children.Add(textBox);
+                textBox.Text = "";
+                textBox.Width = MainBorder.ActualWidth/2;
+            }
+            
+
+            SheetContainer.Children.Add(border);
         }
     }
 }

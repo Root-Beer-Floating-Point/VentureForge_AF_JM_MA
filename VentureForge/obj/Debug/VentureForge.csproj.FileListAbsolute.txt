@@ -37,7 +37,6 @@ D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureFo
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Modules.g.cs
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\FindModules.g.cs
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.g.cs
-D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.g.cs
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\App.g.cs
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge_MarkupCompile.cache
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge_MarkupCompile.lref
@@ -54,7 +53,6 @@ D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureFo
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\Modules.baml
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\FindModules.baml
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadAssests.baml
-D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadeModule.baml
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.g.resources
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.Properties.Resources.resources
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\VentureForge.csproj.GenerateResource.cache
@@ -130,3 +128,21 @@ C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadModule.baml
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseExistingSheet.baml
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseModule.baml
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetList.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetSheet.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateTable.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ErrorPage.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssets.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadModule.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseExistingSheet.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseModule.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.g.cs
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetList.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetSheet.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\CreateTable.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ErrorPage.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ExamineExistingAssets.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UploadModule.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseExistingSheet.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseModule.baml
+D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.baml

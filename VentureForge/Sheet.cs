@@ -16,7 +16,8 @@ namespace VentureForge
         public Border sheetBorder;
         public double width;
         public double height;
-        public List<Container> containerList;
+        public List<Container> containerList = new List<Container>();
+        public int counter = 0;
         
 
         public Sheet()
@@ -47,7 +48,13 @@ namespace VentureForge
                 containerList.Add(con);
               
             }
+            counter++;
             
+        }
+
+        public Container getContainer()
+        {
+            return containerList.Last();
         }
 
 
