@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+        "projectName": "UnitTesting",
+        "projectPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+        "packagesPath": "C:\\Users\\maith\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+=======
+    "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {}
+  },
+  "projects": {
+    "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+        "projectName": "UnitTesting",
+        "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+>>>>>>> origin/JacobDev
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+<<<<<<< HEAD
+          "C:\\Users\\maith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> origin/JacobDev
+        ],
+        "originalTargetFrameworks": [
+          "net60"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {
+<<<<<<< HEAD
+              "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+                "projectPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+=======
+              "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+                "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+>>>>>>> origin/JacobDev
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+<<<<<<< HEAD
+    "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
+        "projectName": "VentureForge",
+        "projectPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+=======
+    "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
+        "projectName": "VentureForge",
+        "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+>>>>>>> origin/JacobDev
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

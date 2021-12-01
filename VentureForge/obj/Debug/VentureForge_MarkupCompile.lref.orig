@@ -1,11 +1,31 @@
 ﻿
 
+<<<<<<< HEAD
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\AssetList.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\AssetSheet.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\ContainerPrompt.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\CreateSheets.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\CreateTable.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\ErrorPage.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\ExamineExistingAssets.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\ExamineExistingSheets.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\MainWindow.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\CreateModule.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\Modules.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\FindModules.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\UploadAssests.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\UploadModule.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\UseExistingSheet.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\UseModule.xaml;;
+FC:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\ViewDocument.xaml;;
+=======
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\AssetList.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\AssetSheet.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\ContainerPrompt.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\CreateSheets.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\CreateTable.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\ErrorPage.xaml;;
+FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\ExamineExistingAssests.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\ExamineExistingAssets.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\ExamineExistingSheets.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\MainWindow.xaml;;
@@ -17,4 +37,5 @@ FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureF
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\UseExistingSheet.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\UseModule.xaml;;
 FD:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\ViewDocument.xaml;;
+>>>>>>> origin/JacobDev
 
