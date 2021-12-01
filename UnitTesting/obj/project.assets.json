@@ -3869,23 +3869,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adfis\\.nuget\\packages\\": {},
+    "C:\\Users\\maith\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+      "projectUniqueName": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
       "projectName": "UnitTesting",
-      "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
-      "packagesPath": "C:\\Users\\adfis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+      "projectPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+      "packagesPath": "C:\\Users\\maith\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\adfis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maith\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3900,8 +3900,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
-              "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+            "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+              "projectPath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
             }
           }
         }
