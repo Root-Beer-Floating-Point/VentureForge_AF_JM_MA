@@ -111,7 +111,7 @@ namespace VentureForge
         private void Done_Click(object sender, RoutedEventArgs e)
         {
             sheet.addContainer(nameInput, cTypeInput, dTypeInput);
-            previousWindow2.addContainer();
+            previousWindow2.addContainer(nameInput);
             Console.WriteLine("bye");
             Close();
             Console.WriteLine("hi");

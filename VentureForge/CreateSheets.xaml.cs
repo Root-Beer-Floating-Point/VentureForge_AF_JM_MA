@@ -1,16 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace VentureForge
 {
@@ -18,8 +10,8 @@ namespace VentureForge
     /// Interaction logic for CreateSheets.xaml
     /// </summary>
     /// 
-    
-    
+
+
 
 
     public partial class CreateSheets : Window
@@ -41,9 +33,9 @@ namespace VentureForge
             this.mod = mod;
             window = this;
             window2 = this;
-            
+
             creator = new Sheet();
-            
+
         }
 
         public CreateSheets(Module mod, string sheetname)
@@ -81,29 +73,29 @@ namespace VentureForge
         private void CreatorName_TextChanged(object sender, TextChangedEventArgs e)
         {
             nameString = CreatorName.Text;
-            
+
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-         
+
             creator.name = nameString;
-            
+
             mod.AddSheet(creator.name, creator);
-            
+
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-           
+
             new CreateModule(mod.name).Show();
             Close();
 
         }
 
-        public void addContainer()
+        public void addContainer(string conName)
         {
-            addedContainer = creator.getContainer();
+            addedContainer = creator.getContainer(conName);
             stackPanel = new StackPanel();
             stackPanel.Name = addedContainer.name;
             textBox = new TextBox();
@@ -122,19 +114,39 @@ namespace VentureForge
             labelText.Width = MainBorder.ActualWidth;
             labelText.TextWrapping = TextWrapping.Wrap;
             textBox.TextWrapping = TextWrapping.Wrap;
-            
+
 
             if (addedContainer.dataEntry == true)
             {
-                labelText.Width = MainBorder.ActualWidth/2;
+                labelText.Width = MainBorder.ActualWidth / 2;
                 labelText.Text = "Give a label for your input field";
                 stackPanel.Children.Add(textBox);
                 textBox.Text = "";
-                textBox.Width = MainBorder.ActualWidth/2;
+                textBox.Width = MainBorder.ActualWidth / 2;
+                textBox.TextChanged += TextBox_TextChanged;
             }
-            
+            labelText.TextInput += LabelText_TextInput; ;
 
             SheetContainer.Children.Add(border);
+        }
+
+        private void LabelText_TextInput(object sender, TextCompositionEventArgs e)
+        {
+            
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox text = sender as TextBox;
+            string s = text.Name.TrimEnd('t', 'x', 't');
+            creator.containerList[s].data = text.Text;
+        }
+
+        private void LabelText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox text = sender as TextBox;
+            string s = text.Name.TrimEnd('l', 'b', 'l');
+            creator.containerList[s].label = text.Text;
         }
     }
 }

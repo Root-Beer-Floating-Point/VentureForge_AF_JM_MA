@@ -53,7 +53,7 @@ namespace VentureForge
         private void NewBtn_Click(object sender, RoutedEventArgs e)
         {
             Button button = sender as Button;
-            new CreateSheets(Memory.modList[modName], button.Name).Show();
+            new UseExistingSheet(Memory.modList[modName], button.Name).Show();
             Close();
         }
 

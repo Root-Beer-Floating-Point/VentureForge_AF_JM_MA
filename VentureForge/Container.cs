@@ -11,6 +11,8 @@ namespace VentureForge
         public String name;
         public bool integer; //if true it's an integer data field
         public bool dataEntry = false; //if true it's a data entry container
+        public string label = "";
+        public string data = "";
 
         public Container()
         {
