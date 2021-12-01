@@ -22,6 +22,10 @@
                 FontSize="35"
                 Foreground="White" />
             <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="17*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
                 <Button
                     Width="150"
                     Margin="150,130,0,0"
@@ -67,6 +71,23 @@
                     FontSize="14"
                     Foreground="White"
                     RenderTransformOrigin="0.553,-0.896" />
+                <Image
+                    Width="222"
+                    Height="185"
+                    Margin="320,146,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    RenderTransformOrigin="0.5,0.5"
+                    Source="/Rufus.png">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform />
+                            <SkewTransform />
+                            <RotateTransform Angle="-720.148" />
+                            <TranslateTransform />
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
 
             </Grid>
         </StackPanel>

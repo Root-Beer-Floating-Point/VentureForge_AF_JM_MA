@@ -64,6 +64,7 @@
                     Foreground="White"
                     RenderTransformOrigin="-0.027,0.556"
                     TextWrapping="Wrap"><Run Text="Title of Sheet" /><LineBreak /><Run /></TextBlock>
+                <Image HorizontalAlignment="Left" Height="100" Margin="693,-44,0,0" VerticalAlignment="Top" Width="100" Source="/Rufus.png"/>
 
             </Grid>
         </StackPanel>

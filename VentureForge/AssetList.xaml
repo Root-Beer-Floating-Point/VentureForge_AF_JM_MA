@@ -14,7 +14,9 @@
         Margin="20"
         Background="#2e3137"
         CornerRadius="20">
+
         <StackPanel>
+
             <Label
                 HorizontalAlignment="Center"
                 Content="Assets List"
@@ -66,8 +68,10 @@
                     Foreground="White"
                     RenderTransformOrigin="-0.027,0.556"
                     TextWrapping="Wrap"><Run Text="Title of List" /><LineBreak /><Run /></TextBlock>
+                <Image HorizontalAlignment="Left" Height="100" Margin="689,-43,0,0" VerticalAlignment="Top" Width="100" Source="/Rufus.png"/>
 
             </Grid>
+
         </StackPanel>
     </Border>
 </Window>
