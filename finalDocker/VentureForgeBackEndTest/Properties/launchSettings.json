@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "VentureForgeBackEndTest": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
