@@ -1,38 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {}
+    "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {}
   },
   "projects": {
-    "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {
+    "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+        "projectUniqueName": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
         "projectName": "UnitTesting",
-        "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
-        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
-        "outputPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
+        "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+        "packagesPath": "C:\\Users\\adfis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\adfis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
-                "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+              "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForgeBackEndTest\\VentureForgeBackEndTest.csproj": {
+                "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForgeBackEndTest\\VentureForgeBackEndTest.csproj"
+              },
+              "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+                "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
               }
             }
           }
@@ -44,7 +48,8 @@
         }
       },
       "frameworks": {
-        "net60": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -63,16 +68,111 @@
               "version": "[3.1.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+    "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForgeBackEndTest\\VentureForgeBackEndTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
+        "projectUniqueName": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForgeBackEndTest\\VentureForgeBackEndTest.csproj",
+        "projectName": "VentureForgeBackEndTest",
+        "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForgeBackEndTest\\VentureForgeBackEndTest.csproj",
+        "packagesPath": "C:\\Users\\adfis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForgeBackEndTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adfis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
         "projectName": "VentureForge",
-        "projectPath": "D:\\programs\\visual studios projects\\VentureForge\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj"
+        "projectPath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForge\\VentureForge.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
       },
       "frameworks": {
         "net472": {}

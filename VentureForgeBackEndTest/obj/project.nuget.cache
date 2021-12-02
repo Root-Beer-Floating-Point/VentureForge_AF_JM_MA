@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DKikIm4LWFK5MPakO3sK3q8fVpHa1kD6Tjc8QgMrBPb/k0221Bk79en3nZBkukQsv5ugjyisP84DlVVK98YE8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adfis\\VentureForge_AF_JM_MA\\VentureForgeBackEndTest\\VentureForgeBackEndTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adfis\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\adfis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\adfis\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\adfis\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
