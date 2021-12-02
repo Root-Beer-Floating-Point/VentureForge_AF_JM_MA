@@ -23,3 +23,14 @@ C:\Users\adfis\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreap
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreapp3.1\VentureForgeBackEndTest.dll
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreapp3.1\VentureForgeBackEndTest.pdb
 C:\Users\adfis\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreapp3.1\VentureForgeBackEndTest.genruntimeconfig.cache
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\bin\Debug\netcoreapp3.1\VentureForgeBackEndTest.exe
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\bin\Debug\netcoreapp3.1\VentureForgeBackEndTest.deps.json
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\bin\Debug\netcoreapp3.1\VentureForgeBackEndTest.runtimeconfig.json
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\bin\Debug\netcoreapp3.1\VentureForgeBackEndTest.runtimeconfig.dev.json
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\bin\Debug\netcoreapp3.1\VentureForgeBackEndTest.dll
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\bin\Debug\netcoreapp3.1\VentureForgeBackEndTest.pdb
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreapp3.1\VentureForgeBackEndTest.csprojAssemblyReference.cache
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreapp3.1\VentureForgeBackEndTest.AssemblyInfoInputs.cache
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreapp3.1\VentureForgeBackEndTest.AssemblyInfo.cs
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreapp3.1\VentureForgeBackEndTest.dll
+D:\programs\visual studios projects\final\VentureForge_AF_JM_MA\VentureForgeBackEndTest\obj\Debug\netcoreapp3.1\VentureForgeBackEndTest.pdb

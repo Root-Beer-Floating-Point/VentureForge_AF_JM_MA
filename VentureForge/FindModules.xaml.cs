@@ -47,7 +47,7 @@ namespace VentureForge
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
         {
-            new ErrorPage().Show();
+            new MainWindow().Show();
             Close();
         }
 
@@ -55,7 +55,7 @@ namespace VentureForge
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-            new ErrorPage().Show();
+            new MainWindow().Show();
             Close();
         }
     }

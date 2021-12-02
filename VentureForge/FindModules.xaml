@@ -36,7 +36,7 @@
                     Foreground="White"
                     RenderTransformOrigin="-0.331,-0.006" />
 
-                <StackPanel x:Name="sp" Height="100" />
+                <StackPanel x:Name="sp" Height="100" Margin="0,100,-0.4,-100" />
             </Grid>
         </StackPanel>
     </Border>
