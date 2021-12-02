@@ -177,7 +177,6 @@ C:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\obj\Debug\As
 C:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetSheet.g.cs
 C:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetList.baml
 C:\Users\maith\source\repos\aaaa\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetSheet.baml
-<<<<<<< HEAD
 =======
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetList.g.cs
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\AssetSheet.g.cs
@@ -198,7 +197,6 @@ D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureFo
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\UseModule.baml
 D:\programs\visual studios projects\VentureForge\VentureForge_AF_JM_MA\VentureForge\obj\Debug\ViewDocument.baml
 >>>>>>> origin/JacobDev
-=======
 C:\Users\maith\OneDrive\سطح المكتب\CS400\aaaaa\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.exe.config
 C:\Users\maith\OneDrive\سطح المكتب\CS400\aaaaa\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.exe
 C:\Users\maith\OneDrive\سطح المكتب\CS400\aaaaa\VentureForge_AF_JM_MA\VentureForge\bin\Debug\VentureForge.pdb

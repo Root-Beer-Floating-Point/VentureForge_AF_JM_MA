@@ -26,17 +26,19 @@ namespace VentureForge
 
         private void ExamineAssets_Click(object sender, RoutedEventArgs e) //Direct torwards Examine Exisiting Assets Page
         {
-
+            new ExamineExistingAssets().Show();
+            Close();
         }
 
-        private void ExamineSheets_Click(object sender, RoutedEventArgs e) //Direct torwards Examine Exisitng Sheets Page
+        private void ExamineSheets_Click(object sender, RoutedEventArgs e) //Direct torwards Examine Exisitng Sheets Page 
         {
-
+           
         }
 
         private void Home_Click(object sender, RoutedEventArgs e) //Return to Home Page
         {
-
+            new MainWindow().Show();
+            Close();
         }
 
         private void Back_Click(object sender, RoutedEventArgs e) //Return to whatever the previous page is
