@@ -8,74 +8,102 @@
     Title="CreateSheets"
     Width="800"
     Height="450"
+    Background="#04c582"
     mc:Ignorable="d">
-    <Grid>
-        <Button
-            Margin="10,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Home_Click"
-            Content="Home" />
-        <Button
-            Margin="717,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="SginIn_Click"
-            Content="Sgin in" />
-        <Button
-            Margin="757,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Login_Click"
-            Content="Login"
-            RenderTransformOrigin="1.57,-0.305" />
-        <Label
-            Margin="80,45,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Content="Add a name for your sheet creator:" />
-        <TextBox
-            x:Name="CreatorName"
-            Width="200"
-            Height="18"
-            Margin="279,49,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Text="TextBox"
-            TextChanged="CreatorName_TextChanged"
-            TextWrapping="Wrap" />
-        <Button
-            Margin="46,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Save_Click"
-            Content="Save" />
-        <Button
-            Margin="640,48,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="AddContainer_Click"
-            Content="Add Container Box"
-            RenderTransformOrigin="0.414,0.635" />
+    <Border
+        Margin="20"
+        Background="#2e3137"
+        CornerRadius="20">
+        <Grid>
+            <Button
+                Width="75"
+                Margin="0,20,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="#545d6a"
+                Click="Home_Click"
+                Content="Home"
+                FontFamily="Georgia"
+                FontSize="12"
+                Foreground="White" />
 
-        <Border
-            x:Name="MainBorder"
-            Margin="10,80,10,10"
-            BorderBrush="Black"
-            BorderThickness="2">
-            <ScrollViewer>
-                <StackPanel x:Name="SheetContainer" />
-            </ScrollViewer>
+            <Button
+                Margin="757,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Login_Click"
+                Content="Login"
+                RenderTransformOrigin="1.57,-0.305" />
+            <Label
+                Margin="180,46,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="#545d6a"
+                Content="Add a name for your sheet creator:"
+                FontFamily="Georgia"
+                FontSize="14"
+                Foreground="White" />
+            <TextBox
+                x:Name="CreatorName"
+                Width="200"
+                Height="18"
+                Margin="409,53,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="#545d6a"
+                FontFamily="Georgia"
+                Foreground="White"
+                Text="TextBox"
+                TextChanged="CreatorName_TextChanged"
+                TextWrapping="Wrap" />
+            <Button
+                Width="75"
+                Margin="0,57,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="#545d6a"
+                Click="Save_Click"
+                Content="Save"
+                FontFamily="Georgia"
+                FontSize="14"
+                Foreground="White" />
+            <Button
+                Margin="621,51,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="#545d6a"
+                Click="AddContainer_Click"
+                Content="Add Container Box"
+                FontFamily="Georgia"
+                FontSize="14"
+                Foreground="White"
+                RenderTransformOrigin="0.414,0.635" />
 
-        </Border>
-        <Button
-            x:Name="Back"
-            Margin="75,0,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Click="Back_Click"
-            Content="Back"
-            RenderTransformOrigin="0.613,0.588" />
+            <Border
+                x:Name="MainBorder"
+                Margin="10,80,10,10"
+                BorderBrush="Black"
+                BorderThickness="2">
+                <ScrollViewer>
 
-    </Grid>
+                    <StackPanel x:Name="SheetContainer" />
+                </ScrollViewer>
+
+            </Border>
+            <Button
+                x:Name="Back"
+                Width="75"
+                Margin="0,37,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="#545d6a"
+                Click="Back_Click"
+                Content="Back"
+                FontFamily="Georgia"
+                FontSize="14"
+                Foreground="White"
+                RenderTransformOrigin="0.613,0.588" />
+
+        </Grid>
+    </Border>
 </Window>

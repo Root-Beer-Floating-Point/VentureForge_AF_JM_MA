@@ -26,12 +26,14 @@ namespace VentureForge
 
         private void Back_Click(object sender, RoutedEventArgs e) //Return to whatever the previous page is
         {
-
+            new CreateModule().Show();
+            Close();
         }
 
         private void Home_Click(object sender, RoutedEventArgs e) //Return to Home Page
         {
-
+            new MainWindow().Show();
+            Close();
         }
 
         private void Save_Click(object sender, RoutedEventArgs e) //Save content of page

@@ -26,12 +26,14 @@ namespace VentureForge
 
         private void Home_Click(object sender, RoutedEventArgs e) //Return to Home Page
         {
-
+            new MainWindow().Show();
+            Close();
         }
 
         private void Back_Click(object sender, RoutedEventArgs e) //Return to whatever the previous page is
         {
-
+            new UploadAssests().Show();
+            Close();
         }
 
         private void CreateAsset_Click(object sender, RoutedEventArgs e) //Create an asset to be added to the table
