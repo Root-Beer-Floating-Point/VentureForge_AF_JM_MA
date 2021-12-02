@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace VentureForgeBackEndTest
 {
@@ -9,6 +10,8 @@ namespace VentureForgeBackEndTest
         static Module module;
         static Sheet sheet;
         static Container container;
+        static String dataType;
+        static String inputType;
         static void Main(string[] args)
         {
             promptModule();
@@ -22,11 +25,11 @@ namespace VentureForgeBackEndTest
             Console.WriteLine("(Y/N)");
             if(Console.ReadLine() == "y" | Console.ReadLine() == "Y")
             {
-
+                fillModule();
             }
             else if(Console.ReadLine() == "n" | Console.ReadLine() == "N")
             {
-
+                showAll();
             }
             else
             {
@@ -126,7 +129,38 @@ namespace VentureForgeBackEndTest
 
         public static void showAll()
         {
-            foreach (KeyValuePair<String, Container> ele1 in mod.SheetList[sheetname].containerList)
+            foreach (KeyValuePair<String, Module> ele1 in Memory.modList)
+            {
+                Console.WriteLine("Module: "+ele1.Value.name);
+                foreach (KeyValuePair<String, Sheet> ele2 in Memory.modList[ele1.Key].SheetList)
+                {
+                    Console.WriteLine("Sheet: " + ele2.Value.name);
+                    foreach (KeyValuePair<string, Container> ele3 in Memory.modList[ele1.Key].SheetList[ele2.Key].containerList)
+                    {
+                        if (ele3.Value.dataEntry == true)
+                        {
+                            inputType = "input";
+                            if (ele3.Value.integer == true)
+                            {
+                                dataType = "integers";
+                            }
+                            else
+                            {
+                                dataType = "strings";
+                            }
+                            Console.WriteLine("Container: " + ele3.Value.name + " designed for " + inputType + " using " + dataType);
+                        }
+                        else
+                        {
+                            inputType = "labels";
+                            Console.WriteLine("Container: " + ele3.Value.name + " designed for " + inputType);
+                        }
+                        
+                        
+                    }
+                }
+            }       
+            
         }
 
     }
