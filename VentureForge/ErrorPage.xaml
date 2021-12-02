@@ -36,10 +36,10 @@
             Margin="10,10,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            FontFamily="Georgia"
-            FontSize="14"
             Click="Home_Click"
-            Content="Home" />
+            Content="Home"
+            FontFamily="Georgia"
+            FontSize="14" />
 
     </Grid>
 </Window>

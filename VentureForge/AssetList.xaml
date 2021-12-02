@@ -27,7 +27,6 @@
                 <Button
                     x:Name="Home"
                     Width="75"
-                    
                     Margin="0,0,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
@@ -68,7 +67,13 @@
                     Foreground="White"
                     RenderTransformOrigin="-0.027,0.556"
                     TextWrapping="Wrap"><Run Text="Title of List" /><LineBreak /><Run /></TextBlock>
-                <Image HorizontalAlignment="Left" Height="100" Margin="689,-43,0,0" VerticalAlignment="Top" Width="100" Source="/Rufus.png"/>
+                <Image
+                    Width="100"
+                    Height="100"
+                    Margin="689,-43,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Source="/Rufus.png" />
 
             </Grid>
 

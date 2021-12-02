@@ -15,21 +15,22 @@
         Background="#2e3137"
         CornerRadius="20">
         <StackPanel>
-            <Label HorizontalAlignment="Center"
+            <Label
+                HorizontalAlignment="Center"
                 Content="Container Prompt"
                 FontFamily="Georgia"
                 FontSize="25"
                 Foreground="White" />
             <Grid>
                 <Label
-                    Background="#545d6a"
-                    Foreground="White"
-                    FontFamily="Georgia"
-                    FontSize="18"
                     Margin="58,10,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
-                    Content="Adding Container" />
+                    Background="#545d6a"
+                    Content="Adding Container"
+                    FontFamily="Georgia"
+                    FontSize="18"
+                    Foreground="White" />
                 <RadioButton
                     x:Name="String"
                     Margin="110,156,0,0"
@@ -40,27 +41,27 @@
                     GroupName="DataType"
                     Visibility="Hidden" />
                 <TextBox
-                    Background="#545d6a"
-                    Foreground="White"
-                    FontFamily="Georgia"
-                    FontSize="12"
                     x:Name="NameText"
                     Width="101"
                     Height="15"
                     Margin="134,70,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Georgia"
+                    FontSize="12"
+                    Foreground="White"
                     Text=""
                     TextChanged="TextBox_TextChanged"
                     TextWrapping="Wrap" />
                 <TextBlock
-                    Background="#545d6a"
-                    Foreground="White"
-                    FontFamily="Georgia"
-                    FontSize="12"
                     Margin="20,70,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Georgia"
+                    FontSize="12"
+                    Foreground="White"
                     Text="Name of Container:"
                     TextWrapping="Wrap" />
                 <RadioButton
@@ -81,46 +82,46 @@
                     TextWrapping="Wrap"
                     Visibility="Hidden" />
                 <RadioButton
-                    Background="#545d6a"
-                    Foreground="White"
-                    FontFamily="Georgia"
-                    FontSize="12"
                     x:Name="Label"
                     Margin="125,108,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
+                    Background="#545d6a"
                     Checked="Label_Checked"
                     Content="Label"
-                    GroupName="ContainerType" />
-                <RadioButton
-                    Background="#545d6a"
-                    Foreground="White"
                     FontFamily="Georgia"
                     FontSize="12"
+                    Foreground="White"
+                    GroupName="ContainerType" />
+                <RadioButton
                     x:Name="Input"
                     Margin="195,108,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
+                    Background="#545d6a"
                     Checked="Input_Checked"
                     Content="Input"
-                    GroupName="ContainerType" />
-                <TextBlock
-                    Background="#545d6a"
-                    Foreground="White"
                     FontFamily="Georgia"
                     FontSize="12"
+                    Foreground="White"
+                    GroupName="ContainerType" />
+                <TextBlock
                     Margin="20,107,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
+                    Background="#545d6a"
+                    FontFamily="Georgia"
+                    FontSize="12"
+                    Foreground="White"
                     Text="Container Type:"
                     TextWrapping="Wrap" />
                 <Button
-                    Background="#545d6a"
                     x:Name="Done"
                     Width="76"
                     Margin="0,171,0,0"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Top"
+                    Background="#545d6a"
                     Click="Done_Click"
                     Content="Done"
                     IsEnabled="False" />
