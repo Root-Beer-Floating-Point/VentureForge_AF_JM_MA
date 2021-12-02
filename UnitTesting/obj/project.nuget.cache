@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kzKIh2TYSG6YYPruao2skCfcEAjjB4LKa33IzRrzT+wXhw8Zovp42CmGhJ9fKxXLQldicRLG2vlQ3HM3o2ponw==",
+  "dgSpecHash": "mF2/rtzF/bOoclbJzCbOyTxa+cJoUniuHTtKT+qxHUBjwNU5s19LIU+3olRuSDjokcEUn+JK0VFW/DUUDLCOxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maith\\source\\repos\\aaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
+  "projectFilePath": "C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\UnitTesting\\UnitTesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maith\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\maith\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
@@ -51,5 +51,12 @@
     "C:\\Users\\maith\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\maith\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\maith\\OneDrive\\سطح المكتب\\CS400\\aaaaa\\VentureForge_AF_JM_MA\\UnitTesting\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

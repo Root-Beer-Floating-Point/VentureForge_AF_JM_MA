@@ -16,7 +16,7 @@ namespace VentureForge
         public Border sheetBorder;
         public double width;
         public double height;
-        public List<Container> containerList = new List<Container>();
+        public Dictionary<string, Container> containerList = new Dictionary<string, Container>();
         public int counter = 0;
         
 
@@ -40,21 +40,21 @@ namespace VentureForge
             if(cType == false)//not a data input
             {
                 Container con = new Container(n);
-                containerList.Add(con);
+                containerList.Add(con.name,con);
             }
             else//is a data input
             {
                 Container con = new Container(n, dType);
-                containerList.Add(con);
+                containerList.Add(con.name, con);
               
             }
             counter++;
             
         }
 
-        public Container getContainer()
+        public Container getContainer(string conName)
         {
-            return containerList.Last();
+            return containerList[conName];
         }
 
 

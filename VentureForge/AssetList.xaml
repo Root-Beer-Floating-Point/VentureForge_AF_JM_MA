@@ -14,26 +14,27 @@
         Margin="20"
         Background="#2e3137"
         CornerRadius="20">
+
         <StackPanel>
+
             <Label
                 HorizontalAlignment="Center"
                 Content="Assets List"
-                FontFamily="Mangabey"
+                FontFamily="Georgia"
                 FontSize="35"
                 Foreground="White" />
             <Grid>
                 <Button
                     x:Name="Home"
-                    Click="Home_Click"
                     Width="75"
                     Margin="0,0,0,0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
                     Background="#545d6a"
-                    
+                    Click="Home_Click"
                     Content="Home"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="14"
                     Foreground="White" />
                 <Button
                     Width="75"
@@ -43,8 +44,8 @@
                     Background="#545d6a"
                     Click="Back_Click"
                     Content="Back"
-                    FontFamily="mangabey"
-                    FontSize="25"
+                    FontFamily="Georgia"
+                    FontSize="14"
                     Foreground="White"
                     RenderTransformOrigin="0.553,-0.896" />
                 <Border
@@ -61,13 +62,21 @@
                     HorizontalAlignment="Center"
                     VerticalAlignment="Top"
                     Background="#545d6a"
-                    FontFamily="Mangabey"
+                    FontFamily="Georgia"
                     FontSize="20"
                     Foreground="White"
                     RenderTransformOrigin="-0.027,0.556"
                     TextWrapping="Wrap"><Run Text="Title of List" /><LineBreak /><Run /></TextBlock>
+                <Image
+                    Width="100"
+                    Height="100"
+                    Margin="689,-43,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Source="/Rufus.png" />
 
             </Grid>
+
         </StackPanel>
     </Border>
 </Window>

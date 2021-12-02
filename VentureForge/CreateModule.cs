@@ -45,6 +45,7 @@ namespace VentureForge
             
             mod = masterList[name];
             savecount = 1;
+            named = true;
 
             String sheets = " - ";
 
@@ -138,8 +139,7 @@ namespace VentureForge
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            if (named) 
-            { 
+            
             
                 ShowName.Text = modname;
                 mod.name = modname;
@@ -148,7 +148,7 @@ namespace VentureForge
                       masterList.Add(mod.name, mod); }
                 savecount++;
             
-            }
+            
             
         }
     }

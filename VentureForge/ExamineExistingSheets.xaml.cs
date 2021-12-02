@@ -23,21 +23,28 @@ namespace VentureForge
         string modName;
         public ExamineExistingSheets(string modName)
         {
+            
             this.modName = modName;
-            Dictionary<string, Sheet> allsheets = Memory.modList[modName].SheetList;
-            KeyValuePair<string, Sheet>[] keypairarray = allsheets.ToArray();
-            InitializeComponent();
-            for (int i = 0; i < allsheets.Count; i++)
+
+            if (Memory.modList[modName].SheetList.Count != 0)
             {
-                System.Windows.Controls.Button newBtn = new Button();
+                Dictionary<string, Sheet> allsheets = Memory.modList[modName].SheetList;
+                KeyValuePair<string, Sheet>[] keypairarray = allsheets.ToArray();
+                InitializeComponent();
+                for (int i = 0; i < allsheets.Count; i++)
+                {
+                    System.Windows.Controls.Button newBtn = new Button();
 
-                newBtn.Content = keypairarray[i].Key;
-                newBtn.Name = keypairarray[i].Key;
-                newBtn.Click += NewBtn_Click;
+                    newBtn.Content = keypairarray[i].Key;
+                    newBtn.Name = keypairarray[i].Key;
+                    newBtn.Click += NewBtn_Click;
+
+
+
+                    sp.Children.Add(newBtn);
+                }
                 
-               
-
-                sp.Children.Add(newBtn);
+           
 
             }
             InitializeComponent();
@@ -46,7 +53,7 @@ namespace VentureForge
         private void NewBtn_Click(object sender, RoutedEventArgs e)
         {
             Button button = sender as Button;
-            new CreateSheets(Memory.modList[modName], button.Name).Show();
+            new UseExistingSheet(Memory.modList[modName], button.Name).Show();
             Close();
         }
 

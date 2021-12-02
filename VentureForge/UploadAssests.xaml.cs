@@ -57,7 +57,8 @@ namespace VentureForge
 
         private void CreateTable_Click(object sender, RoutedEventArgs e)
         {
-
+            new CreateTable().Show();
+            Close();
         }
 
         private void SignIn_Click(object sender, RoutedEventArgs e)
