@@ -12,6 +12,7 @@
           "NUnit": "3.13.2",
           "NUnit3TestAdapter": "4.0.0",
           "VentureForge": "1.0.0",
+          "VentureForgeBackEndTest": "1.0.0",
           "coverlet.collector": "3.1.0"
         },
         "runtime": {
@@ -655,6 +656,11 @@
         "runtime": {
           "VentureForge.exe": {}
         }
+      },
+      "VentureForgeBackEndTest/1.0.0": {
+        "runtime": {
+          "VentureForgeBackEndTest.dll": {}
+        }
       }
     }
   },
@@ -987,6 +993,11 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "VentureForge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VentureForgeBackEndTest/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

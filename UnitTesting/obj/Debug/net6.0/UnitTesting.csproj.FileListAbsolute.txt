@@ -100,3 +100,10 @@ C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\obj\Debug\net6.0\UnitTesting.dl
 C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\obj\Debug\net6.0\ref\UnitTesting.dll
 C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\obj\Debug\net6.0\UnitTesting.pdb
 C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\obj\Debug\net6.0\UnitTesting.genruntimeconfig.cache
+C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\bin\Debug\net6.0\VentureForgeBackEndTest.deps.json
+C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\bin\Debug\net6.0\VentureForgeBackEndTest.runtimeconfig.json
+C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\bin\Debug\net6.0\VentureForgeBackEndTest.runtimeconfig.dev.json
+C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\bin\Debug\net6.0\VentureForgeBackEndTest.exe
+C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\bin\Debug\net6.0\VentureForgeBackEndTest.dll
+C:\Users\adfis\VentureForge_AF_JM_MA\UnitTesting\bin\Debug\net6.0\VentureForgeBackEndTest.pdb
