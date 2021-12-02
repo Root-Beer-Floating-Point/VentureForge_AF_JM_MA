@@ -57,7 +57,7 @@ namespace VentureForgeBackEndTest
 
             public void addContainer(String n, Container container)
         {
-            containerList.Add(n, container);
+
             if (count == 0) { containerList.Add(n, container); }
             else { containerList.Remove(n); containerList.Add(n, container); }
             count++;

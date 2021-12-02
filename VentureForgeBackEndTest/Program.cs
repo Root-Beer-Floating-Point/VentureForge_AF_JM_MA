@@ -5,8 +5,8 @@ namespace VentureForgeBackEndTest
 {
     class Program
     {
-        String reply;
-        static Memory memory;
+        static String reply;
+        static Memory memory = new Memory();
         static Module module;
         static Sheet sheet;
         static Container container;
@@ -23,11 +23,12 @@ namespace VentureForgeBackEndTest
         {
             Console.WriteLine("Would you like to create a module?");
             Console.WriteLine("(Y/N)");
-            if(Console.ReadLine() == "y" | Console.ReadLine() == "Y")
+            reply = Console.ReadLine();
+            if(reply == "y" || reply == "Y")
             {
                 fillModule();
             }
-            else if(Console.ReadLine() == "n" | Console.ReadLine() == "N")
+            else if(reply == "n" || reply == "N")
             {
                 showAll();
             }
@@ -41,6 +42,7 @@ namespace VentureForgeBackEndTest
         public static void fillModule()
         {
             module = new Module();
+            module.setName("");
             Console.WriteLine("What's the name of the module?");
             module.setName(Console.ReadLine());
             memory.addModule(module.name, module);
@@ -52,11 +54,12 @@ namespace VentureForgeBackEndTest
         {
             Console.WriteLine("Would you like to create a sheet?");
             Console.WriteLine("(Y/N)");
-            if (Console.ReadLine() == "y" | Console.ReadLine() == "Y")
+            reply = Console.ReadLine();
+            if (reply == "y" || reply == "Y")
             {
                 fillSheet();
             }
-            else if (Console.ReadLine() == "n" | Console.ReadLine() == "N")
+            else if (reply == "n" || reply == "N")
             {
                 promptModule();
             }
@@ -81,11 +84,12 @@ namespace VentureForgeBackEndTest
         {
             Console.WriteLine("Would you like to create a container?");
             Console.WriteLine("(Y/N)");
-            if (Console.ReadLine() == "y" | Console.ReadLine() == "Y")
+            reply = Console.ReadLine();
+            if (reply == "y" || reply == "Y")
             {
                 fillContainer();
             }
-            else if (Console.ReadLine() == "n" | Console.ReadLine() == "N")
+            else if (reply == "n" || reply == "N")
             {
                 promptSheet();
             }
@@ -100,12 +104,14 @@ namespace VentureForgeBackEndTest
             container = new Container();
             Console.WriteLine("What's the name of the container?");
             container.setName(Console.ReadLine());
-            Console.WriteLine("Does the container have an input field?");
-            if(Console.ReadLine() == "y" | Console.ReadLine() == "Y")
+            Console.WriteLine("Does the container have an input field? (Y/N)");
+            reply = Console.ReadLine();
+            if(reply == "y" || reply == "Y")
             {
                 container.setData(true);
-                Console.WriteLine("Is the input field an integer?");
-                if (Console.ReadLine() == "y" | Console.ReadLine() == "Y")
+                Console.WriteLine("Is the input field an integer? (Y/N)");
+                reply = Console.ReadLine();
+                if (reply == "y" || reply == "Y")
                 {
                     container.setInteger(true);
 
